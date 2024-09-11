@@ -1,0 +1,23 @@
+<section class="our-service-2 section-space">
+    <div class="container">
+        <div class="row g-24">
+            <div class="col-12">
+                <div class="section__title-wrapper text-center mb-70 mb-sm-50 mb-xs-40">
+                    <span class="section__subtitle justify-content-center mb-10 mb-xs-5 wow clip-a-z">Our Recipes</span>
+                    <h2 class="section__title mb-10 mb-xs-5 title-animation">Discover Our Categories</h2>
+                    <div class="dot-shpae wow clip-a-z">
+                        <img class="img-fluid" src="assets/imgs/section-title/dot-shape.svg" alt="not found" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-24 mb-minus-40">
+            @for (category of categoryList; track category.id) {
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <app-categories-part [category]="category"></app-categories-part>
+            </div>
+            }
+        </div>
+    </div>
+</section>

@@ -1,0 +1,28 @@
+<div class="blog-4__right sidebar-rr-sticky">
+    <div class="sidebar">
+        <div app-base-sidebar-card class="sidebar__widget section-bg-2" title="Search">
+            <div class="sidebar__widget-search">
+                <div class="search__bar">
+                    <input type="text" id="search" placeholder="Enter Keyword" [(ngModel)]="sidebarSearchInput" />
+                    @if (!sidebarSearchInput) {
+                    <button class="search-btn" (click)="searchRecipes()">
+                        <i class="fa-regular fa-magnifying-glass fs-2"></i>
+                    </button>
+                    } @else {
+                    <button class="clear-btn" (click)="resetSearch()">
+                        <i class="fa-regular fa-xmark fs-2"></i>
+                    </button>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar__widget section-bg-2" app-base-sidebar-card title="Categories">
+            <div class="sidebar__widget-category">
+                @for (category of categoryArray; track category.key) {
+                <a routerLink="/recipes"> {{ category.value }}<i class="fa-solid fa-arrow-right"></i> </a>
+                }
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+<div class="blog__item mb-24">
+    <div class="blog__item-media">
+        <a [routerLink]="'/recipes/' + latest.id">
+            <img [src]="latest.image" class="img-fluid" alt="image not found" />
+        </a>
+    </div>
+
+    <div class="blog__item-content">
+        <div class="blog__item-content__top">
+            <div class="blog__item-meta-tags d-flex flex-wrap">
+                <a href="blog-details.html">Food Menu</a>
+                <a href="blog-details.html">Food Menu</a>
+            </div>
+            <h6 class="mt-15">
+                <a [routerLink]="'/recipes/' + latest.id">{{ latest.title }}</a>
+            </h6>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,60 @@
+<section class="banner-2 banner-2__space overflow-hidden">
+    <div class="container">
+        <div class="row g-24">
+            <div class="col-12">
+                <div class="banner-2__content">
+                    <h1 class="banner-2__title mb-20 mb-sm-15 mb-xs-10 title-animation">
+                        Sizzle & <br />
+                        <span>Serve</span>
+                    </h1>
+                    <p class="mb-45 mb-sm-40 mb-xs-35">Whip up something fire 🔥 with our top trending dishes!</p>
+                    <app-base-button text="Get Cookin'" link="/recipes" color="mix"></app-base-button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<app-categories-section></app-categories-section>
+
+<div class="experience experience__background experience__space experience__bottom-up overflow-hidden">
+    <div class="container">
+        <div class="row g-24">
+            <div class="col-12">
+                <div class="experience__item-wrapper">
+                    <app-counter [endCount]="150" text="Recipes That Slap"></app-counter>
+
+                    <app-counter [endCount]="45" text="Foodie Followers"></app-counter>
+
+                    <app-counter [endCount]="20" text="Chefs On Fire"></app-counter>
+
+                    <app-counter [notCounter]="true" text="Vibes In the Kitchen"></app-counter>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="blog-2 our-project section-space__bottom">
+    <app-highlighted-section [highlightedList]="recipes.slice(0, 2)"></app-highlighted-section>
+</section>
+
+<app-latest-section [latestList]="recipes"></app-latest-section>
+
+<section class="cta-2">
+    <div class="container">
+        <div class="row g-24">
+            <div class="col-12">
+                <div class="cta-2__content">
+                    <div class="cta-2__content-text">
+                        <span class="text-uppercase">Get Ready to Ignite Your Taste Buds!</span>
+                        <h3 class="text-uppercase title-animation">
+                            <a routerLink="/auth/register">Become a Part of Our Chef Family!</a>
+                        </h3>
+                    </div>
+                    <a class="btn-book" routerLink="/auth/register">Sign Up Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,27 @@
+<section class="blog section-space__bottom">
+    <div class="container">
+        <div class="row g-24 mb-70 mb-sm-50 mb-xs-40 align-items-lg-end align-items-center">
+            <div class="col-xl-6">
+                <div class="section__title-wrapper text-center text-xl-start">
+                    <span class="section__subtitle justify-content-start mb-10 mb-xs-5 wow clip-a-z"
+                        >Our collection</span
+                    >
+                    <h2 class="section__title mb-0 title-animation">Latest additions</h2>
+                </div>
+            </div>
+            <div class="col-xl-6">
+                <div class="d-flex justify-content-xl-end mt-xs-10 mt-sm-10 mt-md-10 mt-lg-10 justify-content-center">
+                    <app-base-button text="View all recipes" routerLink="/recipes" color="black"></app-base-button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-24 mb-minus-24">
+            @for (latest of latestList; track latest.id) {
+            <div class="col-xl-4 col-md-6">
+                <app-latest-part [latest]="latest"></app-latest-part>
+            </div>
+            }
+        </div>
+    </div>
+</section>

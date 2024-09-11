@@ -1,0 +1,59 @@
+<app-base-half-hero title="Login page" page="Auth" image="assets/imgs/cta-2/cta.jpg"></app-base-half-hero>
+
+<section
+    class="opening-time opening-time__bottom opening-time__background opening-time__space section-bg-3"
+    data-background="assets/imgs/opening-time/bg.png"
+>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <div class="opening-time__content wow clip-a-z text-center">
+                    <div class="section__title-wrapper text-center mb-35">
+                        <h3 class="text-uppercase fw-bold mb-1">Login</h3>
+                        <p>Enter your email and password to login into your account.</p>
+                    </div>
+                    <form
+                        id="contact-us-message__form"
+                        class="contact-us-message__form"
+                        [formGroup]="form"
+                        (submit)="submitForm()"
+                    >
+                        <div class="row">
+                            <mat-form-field>
+                                <mat-label>Username</mat-label>
+                                <input matInput formControlName="username" />
+                                <mat-icon matSuffix>account_circle</mat-icon>
+                            </mat-form-field>
+
+                            <mat-form-field>
+                                <mat-label>Password</mat-label>
+                                <input matInput formControlName="password" [type]="hide ? 'password' : 'text'" />
+                                <button type="button" mat-icon-button matSuffix (click)="hide = !hide">
+                                    <mat-icon>{{ hide ? "visibility_off" : "visibility" }}</mat-icon>
+                                </button>
+                            </mat-form-field>
+                            @if (!formIsValid) {
+                            <p class="text-danger">Login failed, credentials are not valid.</p>
+                            }
+
+                            <!-- <p>Forgot Password?</p> -->
+
+                            <div class="col-12 mb-50">
+                                <button type="submit" class="rr-btn-solid">
+                                    <span class="btn-wrap">
+                                        <span class="text-one">Login <i class="fa-light fa-arrow-right-long"></i></span>
+                                        <span class="text-two">Login <i class="fa-light fa-arrow-right-long"></i></span>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="col-12">
+                        Dont have an account?
+                        <a routerLink="/auth/register"> Register instead </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

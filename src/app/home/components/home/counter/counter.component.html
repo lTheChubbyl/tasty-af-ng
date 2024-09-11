@@ -1,0 +1,10 @@
+<div class="experience__item">
+    <p>
+        @if (notCounter) {
+        <span class="odometer"><i class="fa-solid fa-infinity"></i></span>
+        } @else {
+        <span class="odometer">{{ count }}k+</span>
+        }
+        <span [innerHTML]="formattedText"></span>
+    </p>
+</div>

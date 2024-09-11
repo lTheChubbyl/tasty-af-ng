@@ -1,0 +1,127 @@
+<app-base-half-hero title="Register page" page="Auth / Register" image="assets/imgs/cta-2/cta.jpg"></app-base-half-hero>
+
+<section
+    class="opening-time opening-time__bottom opening-time__background opening-time__space section-bg-3"
+    data-background="assets/imgs/opening-time/bg.png"
+>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <div class="opening-time__content wow clip-a-z text-center">
+                    <div class="section__title-wrapper text-center mb-35">
+                        <h3 class="text-uppercase fw-bold mb-1">Sign up</h3>
+                        <p>Enter your details to create an account.</p>
+                    </div>
+                    <form id="contact-us-message__form" class="contact-us-message__form" (submit)="submitForm()">
+                        <div class="row">
+                            <div class="col-12 d-flex justify-content-between">
+                                <mat-form-field class="example-full-width">
+                                    <mat-label>First name</mat-label>
+                                    <input
+                                        type="text"
+                                        matInput
+                                        [formControl]="firstNameFormControl"
+                                        [errorStateMatcher]="matcher"
+                                    />
+                                    @if (firstNameFormControl.hasError('pattern') &&
+                                    !firstNameFormControl.hasError('required')) {
+                                    <mat-error>Please enter a valid first name</mat-error>
+                                    } @if (firstNameFormControl.hasError('required')) {
+                                    <mat-error>First name is <strong>required</strong></mat-error>
+                                    }
+                                </mat-form-field>
+
+                                <mat-form-field class="example-full-width">
+                                    <mat-label>Last name</mat-label>
+                                    <input
+                                        type="text"
+                                        matInput
+                                        [formControl]="lastNameFormControl"
+                                        [errorStateMatcher]="matcher"
+                                    />
+                                    @if (lastNameFormControl.hasError('pattern') &&
+                                    !lastNameFormControl.hasError('required')) {
+                                    <mat-error>Please enter a valid last name</mat-error>
+                                    } @if (lastNameFormControl.hasError('required')) {
+                                    <mat-error>Last name is <strong>required</strong></mat-error>
+                                    }
+                                </mat-form-field>
+                            </div>
+
+                            <mat-form-field class="example-full-width">
+                                <mat-label>Email</mat-label>
+                                <input
+                                    type="email"
+                                    matInput
+                                    [formControl]="emailFormControl"
+                                    [errorStateMatcher]="matcher"
+                                />
+                                @if (emailFormControl.hasError('email') && !emailFormControl.hasError('required')) {
+                                <mat-error>Please enter a valid email address</mat-error>
+                                } @if (emailFormControl.hasError('required')) {
+                                <mat-error>Email is <strong>required</strong></mat-error>
+                                }
+                            </mat-form-field>
+
+                            <mat-form-field class="example-full-width">
+                                <mat-label>Username</mat-label>
+                                <input
+                                    type="text"
+                                    matInput
+                                    [formControl]="usernameFormControl"
+                                    [errorStateMatcher]="matcher"
+                                />
+                                @if (usernameFormControl.hasError('pattern') &&
+                                !usernameFormControl.hasError('required')) {
+                                <mat-error>Please enter a valid username</mat-error>
+                                } @if (usernameFormControl.hasError('required')) {
+                                <mat-error>Username is <strong>required</strong></mat-error>
+                                }
+                            </mat-form-field>
+
+                            <mat-form-field class="example-full-width">
+                                <mat-label>Password</mat-label>
+                                <input
+                                    type="password"
+                                    matInput
+                                    [formControl]="passwordFormControl"
+                                    [errorStateMatcher]="matcher"
+                                />
+                                @if (passwordFormControl.hasError('pattern') &&
+                                !passwordFormControl.hasError('required')) {
+                                <mat-error
+                                    >Please enter a valid password(at least 8 characters, 1 number, 1 special
+                                    character)</mat-error
+                                >
+                                } @if (passwordFormControl.hasError('required')) {
+                                <mat-error>Password is <strong>required</strong></mat-error>
+                                }
+                            </mat-form-field>
+
+                            @if (!formIsValid) {
+                            <p class="text-danger">Registration failed, please check all fields.</p>
+                            }
+
+                            <div class="col-12 mb-50">
+                                <button type="submit" class="rr-btn-solid">
+                                    <span class="btn-wrap">
+                                        <span class="text-one"
+                                            >Register <i class="fa-light fa-arrow-right-long"></i
+                                        ></span>
+                                        <span class="text-two"
+                                            >Register <i class="fa-light fa-arrow-right-long"></i
+                                        ></span>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="col-12">
+                        Already have an account?
+                        <a routerLink="/auth"> Login instead </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

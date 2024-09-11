@@ -1,0 +1,21 @@
+<ul class="blog-2__item-author mb-20">
+    <li>
+        <span><span class="text-lowercase">by</span> {{ highlighted.author || "Foodista" }}</span>
+    </li>
+    <li>
+        <a [routerLink]="'/recipes/' + highlighted.id">
+            <img src="assets/imgs/blog-2/comment.png" alt="not found" />
+            <span>{{ commentNum }} Comment/s</span>
+        </a>
+    </li>
+</ul>
+
+<h5 class="mb-70 mt-xl-30 mb-lg-30 mb-md-30 mb-sm-25 mb-xs-20 text-uppercase">
+    <a [routerLink]="'/recipes/' + highlighted.id">{{ highlighted.title }}</a>
+</h5>
+
+<app-base-button
+    text="Read More"
+    [routerLink]="'/recipes/' + highlighted.id"
+    class="rr-btn rr-btn__red"
+></app-base-button>

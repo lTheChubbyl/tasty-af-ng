@@ -1,0 +1,7 @@
+.unavailable {
+    opacity: 0.6;
+}
+
+.not-valid {
+    color: red;
+}

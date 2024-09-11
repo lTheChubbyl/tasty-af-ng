@@ -1,0 +1,49 @@
+<section class="blog section-space mt-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8">
+                <div class="blog__details">
+                    <div class="blog__details-thumb mb-35">
+                        <img [src]="recipe.image" class="img-fluid" alt="image not found" />
+                    </div>
+
+                    <ul class="blog__details-meta mb-15">
+                        <li><i class="fa-solid fa-circle-user"></i>by {{ recipe.author || "Foodista" }}</li>
+                    </ul>
+
+                    <div class="blog__details-content">
+                        <h4>{{ recipe.title }}</h4>
+                        <p [innerHTML]="recipe.summary"></p>
+
+                        <h5>ingredients</h5>
+                        <ul>
+                            @for (ingredient of recipe.extendedIngredients; track ingredient) {
+                            <li>{{ ingredient.original }}</li>
+                            }
+                        </ul>
+
+                        <h5>Instructions</h5>
+                        <ol>
+                            @for (step of recipe.analyzedInstructions.steps; track step) {
+                            <li>{{ step }}</li>
+                            }
+                        </ol>
+
+                        <div
+                            class="blog__details-pagination mb-60 mb-xs-50 mt-35 mt-xs-30 d-flex flex-column flex-md-row align-items-center justify-content-md-between"
+                        >
+                            <div class="dot mx-auto">
+                                <img src="assets/imgs/blog-details/dot.png" alt="not found" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <app-comment-section></app-comment-section>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <app-sidebar-section></app-sidebar-section>
+            </div>
+        </div>
+    </div>
+</section>
