@@ -26,108 +26,12 @@
     },
     {
         "extendedIngredients": [
-            {
-                "id": 9236,
-                "aisle": "Produce",
-                "image": "peach.png",
-                "consistency": "SOLID",
-                "name": "peaches",
-                "nameClean": "peach",
-                "original": "1/4 cup frozen peaches",
-                "originalName": "frozen peaches",
-                "amount": 0.25,
-                "unit": "cup",
-                "meta": ["frozen"],
-                "measures": {
-                    "us": { "amount": 0.25, "unitShort": "cups", "unitLong": "cups" },
-                    "metric": { "amount": 38.5, "unitShort": "g", "unitLong": "grams" }
-                }
-            },
-            {
-                "id": 8402,
-                "aisle": "Cereal",
-                "image": "rolled-oats.jpg",
-                "consistency": "SOLID",
-                "name": "cooking oats",
-                "nameClean": "quick cooking oats",
-                "original": "cup quick cooking oats",
-                "originalName": "quick cooking oats",
-                "amount": 1.0,
-                "unit": "cup",
-                "meta": ["quick"],
-                "measures": {
-                    "us": { "amount": 1.0, "unitShort": "cup", "unitLong": "cup" },
-                    "metric": { "amount": 81.081, "unitShort": "g", "unitLong": "grams" }
-                }
-            },
-            {
-                "id": 1085,
-                "aisle": "Milk, Eggs, Other Dairy",
-                "image": "milk.jpg",
-                "consistency": "LIQUID",
-                "name": "non-fat milk",
-                "nameClean": "fat free milk",
-                "original": "1/2 cup non-fat milk",
-                "originalName": "non-fat milk",
-                "amount": 0.5,
-                "unit": "cup",
-                "meta": [],
-                "measures": {
-                    "us": { "amount": 0.5, "unitShort": "cups", "unitLong": "cups" },
-                    "metric": { "amount": 122.5, "unitShort": "ml", "unitLong": "milliliters" }
-                }
-            },
-            {
-                "id": 43274,
-                "aisle": "Cheese",
-                "image": "cream-cheese.jpg",
-                "consistency": "SOLID",
-                "name": "cream cheese",
-                "nameClean": "reduced fat cream cheese",
-                "original": "2 teaspoons low fat cream cheese",
-                "originalName": "low fat cream cheese",
-                "amount": 2.0,
-                "unit": "teaspoons",
-                "meta": ["low fat"],
-                "measures": {
-                    "us": { "amount": 2.0, "unitShort": "tsps", "unitLong": "teaspoons" },
-                    "metric": { "amount": 2.0, "unitShort": "tsps", "unitLong": "teaspoons" }
-                }
-            },
-            {
-                "id": 19912,
-                "aisle": "Ethnic Foods",
-                "image": "agave.png",
-                "consistency": "LIQUID",
-                "name": "agave",
-                "nameClean": "agave",
-                "original": "1 teaspoon agave",
-                "originalName": "agave",
-                "amount": 1.0,
-                "unit": "teaspoon",
-                "meta": [],
-                "measures": {
-                    "us": { "amount": 1.0, "unitShort": "tsp", "unitLong": "teaspoon" },
-                    "metric": { "amount": 1.0, "unitShort": "tsp", "unitLong": "teaspoon" }
-                }
-            },
-            {
-                "id": 2010,
-                "aisle": "Spices and Seasonings",
-                "image": "cinnamon.jpg",
-                "consistency": "SOLID",
-                "name": "cinnamon",
-                "nameClean": "cinnamon",
-                "original": "1/2 teaspoon cinnamon",
-                "originalName": "cinnamon",
-                "amount": 0.5,
-                "unit": "teaspoon",
-                "meta": [],
-                "measures": {
-                    "us": { "amount": 0.5, "unitShort": "tsps", "unitLong": "teaspoons" },
-                    "metric": { "amount": 0.5, "unitShort": "tsps", "unitLong": "teaspoons" }
-                }
-            }
+            { "original": "1/4 cup frozen peaches" },
+            { "original": "cup quick cooking oats" },
+            { "original": "1/2 cup non-fat milk" },
+            { "original": "2 teaspoons low fat cream cheese" },
+            { "original": "1 teaspoon agave" },
+            { "original": "1/2 teaspoon cinnamon" }
         ],
         "id": 655186,
         "title": "Peaches And Cream Oatmeal",
@@ -136,219 +40,24 @@
         "image": "https://img.spoonacular.com/recipes/655186-556x370.jpg",
         "summary": "If you have roughly <b>45 minutes</b> to spend in the kitchen, Peaches And Cream Oatmeal might be a great <b>gluten free and lacto ovo vegetarian</b> recipe to try. This recipe serves 1 and costs 92 cents per serving. One serving contains <b>408 calories</b>, <b>16g of protein</b>, and <b>7g of fat</b>. 2 people have made this recipe and would make it again. It works well as a breakfast. Head to the store and pick up cream cheese, cinnamon, non-fat milk, and a few other things to make it today. It is brought to you by Foodista. With a spoonacular <b>score of 87%</b>, this dish is super. Similar recipes include <a href=\"https://spoonacular.com/recipes/peaches-and-cream-oatmeal-543888\">Peaches and Cream Oatmeal</a>, <a href=\"https://spoonacular.com/recipes/peaches-and-cream-oatmeal-1374267\">Peaches And Cream Oatmeal</a>, and <a href=\"https://spoonacular.com/recipes/peaches-coconut-cream-oatmeal-1615501\">Peaches & Coconut Cream Oatmeal</a>.",
         "dishTypes": ["morning meal", "brunch", "breakfast"],
-        "analyzedInstructions": [
-            {
-                "name": "",
-                "steps": [
-                    {
-                        "number": 1,
-                        "step": "Microwave the peaches for 30 seconds.",
-                        "ingredients": [
-                            {
-                                "id": 9236,
-                                "name": "peach",
-                                "localizedName": "peach",
-                                "image": "https://spoonacular.com/cdn/ingredients_100x100/peach.png"
-                            }
-                        ],
-                        "equipment": [
-                            {
-                                "id": 404762,
-                                "name": "microwave",
-                                "localizedName": "microwave",
-                                "image": "https://spoonacular.com/cdn/equipment_100x100/microwave.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "number": 2,
-                        "step": "Add oats, milk, cream cheese, agave and cinnamon.  Microwave for 1 minute, stir, and enjoy!",
-                        "ingredients": [
-                            {
-                                "id": 1017,
-                                "name": "cream cheese",
-                                "localizedName": "cream cheese",
-                                "image": "cream-cheese.jpg"
-                            },
-                            {
-                                "id": 2010,
-                                "name": "cinnamon",
-                                "localizedName": "cinnamon",
-                                "image": "https://spoonacular.com/cdn/ingredients_100x100/cinnamon.jpg"
-                            },
-                            { "id": 19912, "name": "agave", "localizedName": "agave", "image": "agave.png" },
-                            { "id": 1077, "name": "milk", "localizedName": "milk", "image": "milk.png" },
-                            { "id": 8120, "name": "oats", "localizedName": "oats", "image": "rolled-oats.jpg" }
-                        ],
-                        "equipment": [
-                            {
-                                "id": 404762,
-                                "name": "microwave",
-                                "localizedName": "microwave",
-                                "image": "https://spoonacular.com/cdn/equipment_100x100/microwave.jpg"
-                            }
-                        ],
-                        "length": { "number": 1, "unit": "minutes" }
-                    }
-                ]
-            }
-        ]
+        "analyzedInstructions": {
+            "steps": [
+                "Microwave the peaches for 30 seconds.",
+                "Add oats, milk, cream cheese, agave and cinnamon.  Microwave for 1 minute, stir, and enjoy!"
+            ]
+        }
     },
     {
         "extendedIngredients": [
-            {
-                "id": 1039037,
-                "aisle": "Produce",
-                "image": "avocado.jpg",
-                "consistency": "SOLID",
-                "name": "haas avocados",
-                "nameClean": "hass avocado",
-                "original": "2 large ripe Haas avocados",
-                "originalName": "ripe Haas avocados",
-                "amount": 2.0,
-                "unit": "large",
-                "meta": ["ripe"],
-                "measures": {
-                    "us": { "amount": 2.0, "unitShort": "large", "unitLong": "larges" },
-                    "metric": { "amount": 2.0, "unitShort": "large", "unitLong": "larges" }
-                }
-            },
-            {
-                "id": 11282,
-                "aisle": "Produce",
-                "image": "brown-onion.png",
-                "consistency": "SOLID",
-                "name": "onion",
-                "nameClean": "onion",
-                "original": "2 tablespoons finely chopped onion",
-                "originalName": "finely chopped onion",
-                "amount": 2.0,
-                "unit": "tablespoons",
-                "meta": ["finely chopped"],
-                "measures": {
-                    "us": { "amount": 2.0, "unitShort": "Tbsps", "unitLong": "Tbsps" },
-                    "metric": { "amount": 2.0, "unitShort": "Tbsps", "unitLong": "Tbsps" }
-                }
-            },
-            {
-                "id": 11979,
-                "aisle": "Canned and Jarred",
-                "image": "jalapeno-pepper.png",
-                "consistency": "SOLID",
-                "name": "jalapeno pepper",
-                "nameClean": "jalapeno pepper",
-                "original": "1 tablespoon finely chopped jalapeno pepper (seeds removed)",
-                "originalName": "finely chopped jalapeno pepper (seeds removed)",
-                "amount": 1.0,
-                "unit": "tablespoon",
-                "meta": ["seeds removed)", "finely chopped"],
-                "measures": {
-                    "us": { "amount": 1.0, "unitShort": "Tbsp", "unitLong": "Tbsp" },
-                    "metric": { "amount": 1.0, "unitShort": "Tbsp", "unitLong": "Tbsp" }
-                }
-            },
-            {
-                "id": 11165,
-                "aisle": "Produce",
-                "image": "cilantro.png",
-                "consistency": "SOLID",
-                "name": "cilantro",
-                "nameClean": "cilantro",
-                "original": "1/4 cup chopped fresh cilantro",
-                "originalName": "chopped fresh cilantro",
-                "amount": 0.25,
-                "unit": "cup",
-                "meta": ["fresh", "chopped"],
-                "measures": {
-                    "us": { "amount": 0.25, "unitShort": "cups", "unitLong": "cups" },
-                    "metric": { "amount": 4.0, "unitShort": "g", "unitLong": "grams" }
-                }
-            },
-            {
-                "id": 2047,
-                "aisle": "Spices and Seasonings",
-                "image": "salt.jpg",
-                "consistency": "SOLID",
-                "name": "salt",
-                "nameClean": "table salt",
-                "original": "1/2 teaspoon salt",
-                "originalName": "salt",
-                "amount": 0.5,
-                "unit": "teaspoon",
-                "meta": [],
-                "measures": {
-                    "us": { "amount": 0.5, "unitShort": "tsps", "unitLong": "teaspoons" },
-                    "metric": { "amount": 0.5, "unitShort": "tsps", "unitLong": "teaspoons" }
-                }
-            },
-            {
-                "id": 1002030,
-                "aisle": "Spices and Seasonings",
-                "image": "pepper.jpg",
-                "consistency": "SOLID",
-                "name": "pepper",
-                "nameClean": "black pepper",
-                "original": "1/8 teaspoon freshly ground black pepper",
-                "originalName": "freshly ground black pepper",
-                "amount": 0.125,
-                "unit": "teaspoon",
-                "meta": ["black", "freshly ground"],
-                "measures": {
-                    "us": { "amount": 0.125, "unitShort": "tsps", "unitLong": "teaspoons" },
-                    "metric": { "amount": 0.125, "unitShort": "tsps", "unitLong": "teaspoons" }
-                }
-            },
-            {
-                "id": 9160,
-                "aisle": "Produce",
-                "image": "lime-juice.png",
-                "consistency": "LIQUID",
-                "name": "lime juice",
-                "nameClean": "lime juice",
-                "original": "tablespoon fresh lime juice",
-                "originalName": "fresh lime juice",
-                "amount": 1.0,
-                "unit": "tablespoon",
-                "meta": ["fresh"],
-                "measures": {
-                    "us": { "amount": 1.0, "unitShort": "Tbsp", "unitLong": "Tbsp" },
-                    "metric": { "amount": 1.0, "unitShort": "Tbsp", "unitLong": "Tbsp" }
-                }
-            },
-            {
-                "id": 2044,
-                "aisle": "Produce",
-                "image": "basil.jpg",
-                "consistency": "SOLID",
-                "name": "basil",
-                "nameClean": "fresh basil",
-                "original": "1 teaspoon chopped fresh basil",
-                "originalName": "chopped fresh basil",
-                "amount": 1.0,
-                "unit": "teaspoon",
-                "meta": ["fresh", "chopped"],
-                "measures": {
-                    "us": { "amount": 1.0, "unitShort": "tsp", "unitLong": "teaspoon" },
-                    "metric": { "amount": 1.0, "unitShort": "tsp", "unitLong": "teaspoon" }
-                }
-            },
-            {
-                "id": 2027,
-                "aisle": "Produce",
-                "image": "oregano.jpg",
-                "consistency": "SOLID",
-                "name": "oregano",
-                "nameClean": "oregano",
-                "original": "1 teaspoon chopped fresh oregano",
-                "originalName": "chopped fresh oregano",
-                "amount": 1.0,
-                "unit": "teaspoon",
-                "meta": ["fresh", "chopped"],
-                "measures": {
-                    "us": { "amount": 1.0, "unitShort": "tsp", "unitLong": "teaspoon" },
-                    "metric": { "amount": 1.0, "unitShort": "tsp", "unitLong": "teaspoon" }
-                }
-            }
+            { "original": "2 large ripe Haas avocados" },
+            { "original": "2 tablespoons finely chopped onion" },
+            { "original": "1 tablespoon finely chopped jalapeno pepper (seeds removed)" },
+            { "original": "1/4 cup chopped fresh cilantro" },
+            { "original": "1/2 teaspoon salt" },
+            { "original": "1/8 teaspoon freshly ground black pepper" },
+            { "original": "tablespoon fresh lime juice" },
+            { "original": "1 teaspoon chopped fresh basil" },
+            { "original": "1 teaspoon chopped fresh oregano" }
         ],
         "id": 645988,
         "title": "Guacamole",
@@ -367,259 +76,28 @@
             "hor d'oeuvre",
             "spread"
         ],
-        "analyzedInstructions": [
-            {
-                "name": "",
-                "steps": [
-                    {
-                        "number": 1,
-                        "step": "Cut the avocados in half lengthwise. Drive chef's knife into large pit and twist to remove.  Scoop the avocado out from the skin into a bowl.",
-                        "ingredients": [
-                            { "id": 9037, "name": "avocado", "localizedName": "avocado", "image": "avocado.jpg" }
-                        ],
-                        "equipment": [
-                            {
-                                "id": 404672,
-                                "name": "chefs knife",
-                                "localizedName": "chefs knife",
-                                "image": "https://spoonacular.com/cdn/equipment_100x100/chefs-knife.jpg"
-                            },
-                            {
-                                "id": 404783,
-                                "name": "bowl",
-                                "localizedName": "bowl",
-                                "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "number": 2,
-                        "step": "Mash the avocado with a fork, add in onion and cilantro, oregano and basil..",
-                        "ingredients": [
-                            {
-                                "id": 11165,
-                                "name": "cilantro",
-                                "localizedName": "cilantro",
-                                "image": "cilantro.png"
-                            },
-                            { "id": 9037, "name": "avocado", "localizedName": "avocado", "image": "avocado.jpg" },
-                            { "id": 2027, "name": "oregano", "localizedName": "oregano", "image": "oregano.jpg" },
-                            { "id": 2044, "name": "basil", "localizedName": "basil", "image": "basil.jpg" },
-                            { "id": 11282, "name": "onion", "localizedName": "onion", "image": "brown-onion.png" }
-                        ],
-                        "equipment": []
-                    },
-                    { "number": 3, "step": "Mix to incorporate.", "ingredients": [], "equipment": [] },
-                    {
-                        "number": 4,
-                        "step": "Season to taste with salt, pepper and lime juice.",
-                        "ingredients": [
-                            {
-                                "id": 9160,
-                                "name": "lime juice",
-                                "localizedName": "lime juice",
-                                "image": "lime-juice.png"
-                            },
-                            { "id": 1002030, "name": "pepper", "localizedName": "pepper", "image": "pepper.jpg" },
-                            { "id": 2047, "name": "salt", "localizedName": "salt", "image": "salt.jpg" }
-                        ],
-                        "equipment": []
-                    },
-                    {
-                        "number": 5,
-                        "step": "Serve immediately or chill.  If you are not going to eat the guacamole immediately, store in refrigerator with plastic film wrap pressed onto the guacamole.",
-                        "ingredients": [
-                            {
-                                "id": 1009037,
-                                "name": "guacamole",
-                                "localizedName": "guacamole",
-                                "image": "guacamole.jpg"
-                            },
-                            {
-                                "id": 10018364,
-                                "name": "wrap",
-                                "localizedName": "wrap",
-                                "image": "flour-tortilla.jpg"
-                            }
-                        ],
-                        "equipment": []
-                    }
-                ]
-            }
-        ]
+        "analyzedInstructions": {
+            "steps": [
+                "Cut the avocados in half lengthwise. Drive chef's knife into large pit and twist to remove.  Scoop the avocado out from the skin into a bowl.",
+                "Mash the avocado with a fork, add in onion and cilantro, oregano and basil..",
+                "Mix to incorporate.",
+                "Season to taste with salt, pepper and lime juice.",
+                "Serve immediately or chill.  If you are not going to eat the guacamole immediately, store in refrigerator with plastic film wrap pressed onto the guacamole."
+            ]
+        }
     },
     {
         "extendedIngredients": [
-            {
-                "id": 20081,
-                "aisle": "Baking",
-                "image": "flour.png",
-                "consistency": "SOLID",
-                "name": "all purpose flour",
-                "nameClean": "wheat flour",
-                "original": "2 cups all purpose flour",
-                "originalName": "all purpose flour",
-                "amount": 2.0,
-                "unit": "cups",
-                "meta": [],
-                "measures": {
-                    "us": { "amount": 2.0, "unitShort": "cups", "unitLong": "cups" },
-                    "metric": { "amount": 250.0, "unitShort": "g", "unitLong": "grams" }
-                }
-            },
-            {
-                "id": 19165,
-                "aisle": "Baking",
-                "image": "cocoa-powder.png",
-                "consistency": "SOLID",
-                "name": "cocoa powder",
-                "nameClean": "cacao powder",
-                "original": "2 tablespoons cocoa powder",
-                "originalName": "cocoa powder",
-                "amount": 2.0,
-                "unit": "tablespoons",
-                "meta": [],
-                "measures": {
-                    "us": { "amount": 2.0, "unitShort": "Tbsps", "unitLong": "Tbsps" },
-                    "metric": { "amount": 2.0, "unitShort": "Tbsps", "unitLong": "Tbsps" }
-                }
-            },
-            {
-                "id": 1017,
-                "aisle": "Cheese",
-                "image": "cream-cheese.jpg",
-                "consistency": "SOLID",
-                "name": "cream cheese",
-                "nameClean": "cream cheese",
-                "original": "1 package (8- ounce) cream cheese, softened",
-                "originalName": "package cream cheese, softened",
-                "amount": 8.0,
-                "unit": "ounce",
-                "meta": ["softened"],
-                "measures": {
-                    "us": { "amount": 8.0, "unitShort": "oz", "unitLong": "ounces" },
-                    "metric": { "amount": 226.796, "unitShort": "g", "unitLong": "grams" }
-                }
-            },
-            {
-                "id": 9079,
-                "aisle": "Dried Fruits",
-                "image": "dried-cranberries.jpg",
-                "consistency": "SOLID",
-                "name": "cranberries",
-                "nameClean": "dried cranberries",
-                "original": "1/3 cup dried cranberries",
-                "originalName": "dried cranberries",
-                "amount": 0.33333334,
-                "unit": "cup",
-                "meta": ["dried"],
-                "measures": {
-                    "us": { "amount": 0.33333334, "unitShort": "cups", "unitLong": "cups" },
-                    "metric": { "amount": 40.404, "unitShort": "g", "unitLong": "grams" }
-                }
-            },
-            {
-                "id": 9299,
-                "aisle": "Baking",
-                "image": "raisins.jpg",
-                "consistency": "SOLID",
-                "name": "raisins",
-                "nameClean": "raisins",
-                "original": "1/3 cup dried raisins",
-                "originalName": "dried raisins",
-                "amount": 0.33333334,
-                "unit": "cup",
-                "meta": ["dried"],
-                "measures": {
-                    "us": { "amount": 0.33333334, "unitShort": "cups", "unitLong": "cups" },
-                    "metric": { "amount": 48.333, "unitShort": "g", "unitLong": "grams" }
-                }
-            },
-            {
-                "id": 1012010,
-                "aisle": "Spices and Seasonings",
-                "image": "cinnamon.jpg",
-                "consistency": "SOLID",
-                "name": "ground cinnamon",
-                "nameClean": "ground cinnamon",
-                "original": "1 teaspoon ground cinnamon",
-                "originalName": "ground cinnamon",
-                "amount": 1.0,
-                "unit": "teaspoon",
-                "meta": [],
-                "measures": {
-                    "us": { "amount": 1.0, "unitShort": "tsp", "unitLong": "teaspoon" },
-                    "metric": { "amount": 1.0, "unitShort": "tsp", "unitLong": "teaspoon" }
-                }
-            },
-            {
-                "id": 2025,
-                "aisle": "Spices and Seasonings",
-                "image": "ground-nutmeg.jpg",
-                "consistency": "SOLID",
-                "name": "nutmeg",
-                "nameClean": "nutmeg",
-                "original": "1 teaspoon nutmeg",
-                "originalName": "nutmeg",
-                "amount": 1.0,
-                "unit": "teaspoon",
-                "meta": [],
-                "measures": {
-                    "us": { "amount": 1.0, "unitShort": "tsp", "unitLong": "teaspoon" },
-                    "metric": { "amount": 1.0, "unitShort": "tsp", "unitLong": "teaspoon" }
-                }
-            },
-            {
-                "id": 19335,
-                "aisle": "Baking",
-                "image": "sugar-in-bowl.png",
-                "consistency": "SOLID",
-                "name": "sugar",
-                "nameClean": "sugar",
-                "original": "3/4 cup sugar",
-                "originalName": "sugar",
-                "amount": 0.75,
-                "unit": "cup",
-                "meta": [],
-                "measures": {
-                    "us": { "amount": 0.75, "unitShort": "cups", "unitLong": "cups" },
-                    "metric": { "amount": 150.0, "unitShort": "g", "unitLong": "grams" }
-                }
-            },
-            {
-                "id": 1145,
-                "aisle": "Milk, Eggs, Other Dairy",
-                "image": "butter-sliced.jpg",
-                "consistency": "SOLID",
-                "name": "butter",
-                "nameClean": "unsalted butter",
-                "original": "1/2 cup unsalted butter, melted",
-                "originalName": "unsalted butter, melted",
-                "amount": 0.5,
-                "unit": "cup",
-                "meta": ["unsalted", "melted"],
-                "measures": {
-                    "us": { "amount": 0.5, "unitShort": "cups", "unitLong": "cups" },
-                    "metric": { "amount": 113.5, "unitShort": "g", "unitLong": "grams" }
-                }
-            },
-            {
-                "id": 12155,
-                "aisle": "Baking",
-                "image": "walnuts.jpg",
-                "consistency": "SOLID",
-                "name": "walnuts",
-                "nameClean": "walnuts",
-                "original": "2/3 cup chopped toasted walnuts or almonds",
-                "originalName": "chopped toasted walnuts or almonds",
-                "amount": 0.6666667,
-                "unit": "cup",
-                "meta": ["toasted", "chopped"],
-                "measures": {
-                    "us": { "amount": 0.6666667, "unitShort": "cups", "unitLong": "cups" },
-                    "metric": { "amount": 78.0, "unitShort": "g", "unitLong": "grams" }
-                }
-            }
+            { "original": "2 cups all purpose flour" },
+            { "original": "2 tablespoons cocoa powder" },
+            { "original": "1 package (8- ounce) cream cheese, softened" },
+            { "original": "1/3 cup dried cranberries" },
+            { "original": "1/3 cup dried raisins" },
+            { "original": "1 teaspoon ground cinnamon" },
+            { "original": "1 teaspoon nutmeg" },
+            { "original": "3/4 cup sugar" },
+            { "original": "1/2 cup unsalted butter, melted" },
+            { "original": "2/3 cup chopped toasted walnuts or almonds" }
         ],
         "id": 656569,
         "title": "Polish Rugelach",
@@ -628,288 +106,30 @@
         "image": "https://img.spoonacular.com/recipes/656569-556x370.jpg",
         "summary": "Polish Rugelach could be just the <b>lacto ovo vegetarian</b> recipe you\\'ve been looking for. One serving contains <b>217 calories</b>, <b>3g of protein</b>, and <b>13g of fat</b>. For <b>39 cents per serving</b>, you get a dessert that serves 18. This recipe from Foodista requires ground cinnamon, butter, cream cheese, and walnuts. 2 people were glad they tried this recipe. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 16%</b>, which is not so tremendous. Similar recipes are <a href=\"https://spoonacular.com/recipes/rugelach-672205\">Rugelach</a>, <a href=\"https://spoonacular.com/recipes/rugelach-658855\">Rugelach</a>, and <a href=\"https://spoonacular.com/recipes/for-rugelach-618734\">for Rugelach</a>.",
         "dishTypes": ["dessert"],
-        "analyzedInstructions": [
-            {
-                "name": "",
-                "steps": [
-                    {
-                        "number": 1,
-                        "step": "For dough: Beat butter and cream cheese in large bowl until light.",
-                        "ingredients": [
-                            {
-                                "id": 1017,
-                                "name": "cream cheese",
-                                "localizedName": "cream cheese",
-                                "image": "cream-cheese.jpg"
-                            },
-                            {
-                                "id": 1001,
-                                "name": "butter",
-                                "localizedName": "butter",
-                                "image": "butter-sliced.jpg"
-                            },
-                            { "id": 0, "name": "dough", "localizedName": "dough", "image": "pizza-dough" }
-                        ],
-                        "equipment": [
-                            {
-                                "id": 404783,
-                                "name": "bowl",
-                                "localizedName": "bowl",
-                                "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "number": 2,
-                        "step": "Add sugar; beat until fluffy.",
-                        "ingredients": [
-                            { "id": 19335, "name": "sugar", "localizedName": "sugar", "image": "sugar-in-bowl.png" }
-                        ],
-                        "equipment": []
-                    }
-                ]
-            },
-            {
-                "name": "Mix in flour. Gather dough into ball and gently knead until smooth. Gather into ball and flatten wrap in plastic wrap and chill 1 hour. When ready, divide dough into four pieces.For filling",
-                "steps": [
-                    {
-                        "number": 1,
-                        "step": "Combine  cup sugar, cranberries walnuts, butter, cinnamon, nutmeg and cocoa powder in food processor and give it a few good chops. Set aside.Preheat oven to 350 degrees.",
-                        "ingredients": [
-                            {
-                                "id": 19165,
-                                "name": "cocoa powder",
-                                "localizedName": "cocoa powder",
-                                "image": "cocoa-powder.png"
-                            },
-                            {
-                                "id": 9078,
-                                "name": "cranberries",
-                                "localizedName": "cranberries",
-                                "image": "cranberries.jpg"
-                            },
-                            {
-                                "id": 2010,
-                                "name": "cinnamon",
-                                "localizedName": "cinnamon",
-                                "image": "https://spoonacular.com/cdn/ingredients_100x100/cinnamon.jpg"
-                            },
-                            { "id": 12155, "name": "walnuts", "localizedName": "walnuts", "image": "walnuts.jpg" },
-                            {
-                                "id": 1001,
-                                "name": "butter",
-                                "localizedName": "butter",
-                                "image": "butter-sliced.jpg"
-                            },
-                            {
-                                "id": 2025,
-                                "name": "nutmeg",
-                                "localizedName": "nutmeg",
-                                "image": "ground-nutmeg.jpg"
-                            },
-                            { "id": 19335, "name": "sugar", "localizedName": "sugar", "image": "sugar-in-bowl.png" }
-                        ],
-                        "equipment": [
-                            {
-                                "id": 404771,
-                                "name": "food processor",
-                                "localizedName": "food processor",
-                                "image": "https://spoonacular.com/cdn/equipment_100x100/food-processor.png"
-                            },
-                            {
-                                "id": 404784,
-                                "name": "oven",
-                                "localizedName": "oven",
-                                "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "number": 2,
-                        "step": "Place 1 dough piece on floured work surface.",
-                        "ingredients": [{ "id": 0, "name": "dough", "localizedName": "dough", "image": "pizza-dough" }],
-                        "equipment": []
-                    },
-                    {
-                        "number": 3,
-                        "step": "Roll out dough to about 1/8 inch thickness.",
-                        "ingredients": [
-                            { "id": 0, "name": "dough", "localizedName": "dough", "image": "pizza-dough" },
-                            { "id": 0, "name": "roll", "localizedName": "roll", "image": "dinner-yeast-rolls.jpg" }
-                        ],
-                        "equipment": []
-                    },
-                    {
-                        "number": 4,
-                        "step": "Spread 3 tablespoons filling over round, leaving  - inch border.",
-                        "ingredients": [{ "id": 0, "name": "spread", "localizedName": "spread", "image": "" }],
-                        "equipment": []
-                    },
-                    {
-                        "number": 5,
-                        "step": "Cut round into 1/8 in. wedges. Starting at wide end",
-                        "ingredients": [],
-                        "equipment": []
-                    }
-                ]
-            }
-        ]
+        "analyzedInstructions": {
+            "steps": [
+                "For dough: Beat butter and cream cheese in large bowl until light.",
+                "Add sugar; beat until fluffy.",
+                "Mix in flour. Gather dough into ball and gently knead until smooth. Gather into ball and flatten wrap in plastic wrap and chill 1 hour. When ready, divide dough into four pieces.For filling",
+                "Combine  cup sugar, cranberries walnuts, butter, cinnamon, nutmeg and cocoa powder in food processor and give it a few good chops. Set aside.Preheat oven to 350 degrees.",
+                "Place 1 dough piece on floured work surface.",
+                "Roll out dough to about 1/8 inch thickness.",
+                "Spread 3 tablespoons filling over round, leaving  - inch border.",
+                "Cut round into 1/8 in. wedges. Starting at wide end"
+            ]
+        }
     },
     {
         "extendedIngredients": [
-            {
-                "id": 1095,
-                "aisle": "Baking",
-                "image": "evaporated-milk.png",
-                "consistency": "SOLID",
-                "name": "condensed milk",
-                "nameClean": "sweetened condensed milk",
-                "original": "1 can fat free condensed milk",
-                "originalName": "fat free condensed milk",
-                "amount": 1.0,
-                "unit": "can",
-                "meta": ["fat free"],
-                "measures": {
-                    "us": { "amount": 1.0, "unitShort": "can", "unitLong": "can" },
-                    "metric": { "amount": 1.0, "unitShort": "can", "unitLong": "can" }
-                }
-            },
-            {
-                "id": 9152,
-                "aisle": "Produce",
-                "image": "lemon-juice.jpg",
-                "consistency": "LIQUID",
-                "name": "lemon juice",
-                "nameClean": "lemon juice",
-                "original": "1/4 cup lemon juice",
-                "originalName": "lemon juice",
-                "amount": 0.25,
-                "unit": "cup",
-                "meta": [],
-                "measures": {
-                    "us": { "amount": 0.25, "unitShort": "cups", "unitLong": "cups" },
-                    "metric": { "amount": 61.0, "unitShort": "ml", "unitLong": "milliliters" }
-                }
-            },
-            {
-                "id": 9156,
-                "aisle": "Produce",
-                "image": "zest-lemon.jpg",
-                "consistency": "SOLID",
-                "name": "lemon rind",
-                "nameClean": "lemon peel",
-                "original": "lemon rind finely grated (1 whole lemon)",
-                "originalName": "lemon rind finely grated whole lemon)",
-                "amount": 1.0,
-                "unit": "",
-                "meta": ["whole", "finely grated"],
-                "measures": {
-                    "us": { "amount": 1.0, "unitShort": "", "unitLong": "" },
-                    "metric": { "amount": 1.0, "unitShort": "", "unitLong": "" }
-                }
-            },
-            {
-                "id": 43274,
-                "aisle": "Cheese",
-                "image": "cream-cheese.jpg",
-                "consistency": "SOLID",
-                "name": "cream cheese",
-                "nameClean": "reduced fat cream cheese",
-                "original": "450 grams low fat cream cheese",
-                "originalName": "low fat cream cheese",
-                "amount": 450.0,
-                "unit": "grams",
-                "meta": ["low fat"],
-                "measures": {
-                    "us": { "amount": 15.873, "unitShort": "oz", "unitLong": "ounces" },
-                    "metric": { "amount": 450.0, "unitShort": "g", "unitLong": "grams" }
-                }
-            },
-            {
-                "id": 9176,
-                "aisle": "Produce",
-                "image": "mango.jpg",
-                "consistency": "SOLID",
-                "name": "mango",
-                "nameClean": "mango",
-                "original": "500 grams gm mango (fresh, canned or frozen)",
-                "originalName": "g mango (fresh, canned or frozen)",
-                "amount": 500.0,
-                "unit": "grams",
-                "meta": ["fresh", "frozen", "canned", "(, or )"],
-                "measures": {
-                    "us": { "amount": 1.102, "unitShort": "lb", "unitLong": "pounds" },
-                    "metric": { "amount": 500.0, "unitShort": "g", "unitLong": "grams" }
-                }
-            },
-            {
-                "id": 1077,
-                "aisle": "Milk, Eggs, Other Dairy",
-                "image": "milk.png",
-                "consistency": "LIQUID",
-                "name": "milk",
-                "nameClean": "milk",
-                "original": "1 cup milk",
-                "originalName": "milk",
-                "amount": 1.0,
-                "unit": "cup",
-                "meta": [],
-                "measures": {
-                    "us": { "amount": 1.0, "unitShort": "cup", "unitLong": "cup" },
-                    "metric": { "amount": 244.0, "unitShort": "ml", "unitLong": "milliliters" }
-                }
-            },
-            {
-                "id": 19335,
-                "aisle": "Baking",
-                "image": "sugar-in-bowl.png",
-                "consistency": "SOLID",
-                "name": "sugar",
-                "nameClean": "sugar",
-                "original": "½ cup sugar",
-                "originalName": "sugar",
-                "amount": 0.5,
-                "unit": "cup",
-                "meta": [],
-                "measures": {
-                    "us": { "amount": 0.5, "unitShort": "cups", "unitLong": "cups" },
-                    "metric": { "amount": 100.0, "unitShort": "g", "unitLong": "grams" }
-                }
-            },
-            {
-                "id": 93813,
-                "aisle": "Gourmet",
-                "image": "molasses.jpg",
-                "consistency": "SOLID",
-                "name": "vanilla bean paste",
-                "nameClean": "vanilla paste",
-                "original": "1 teaspoon vanilla bean paste",
-                "originalName": "vanilla bean paste",
-                "amount": 1.0,
-                "unit": "teaspoon",
-                "meta": [],
-                "measures": {
-                    "us": { "amount": 1.0, "unitShort": "tsp", "unitLong": "teaspoon" },
-                    "metric": { "amount": 1.0, "unitShort": "tsp", "unitLong": "teaspoon" }
-                }
-            },
-            {
-                "id": 14412,
-                "aisle": "Beverages",
-                "image": "water.png",
-                "consistency": "LIQUID",
-                "name": "water",
-                "nameClean": "water",
-                "original": "3 tablespoons water",
-                "originalName": "water",
-                "amount": 3.0,
-                "unit": "tablespoons",
-                "meta": [],
-                "measures": {
-                    "us": { "amount": 3.0, "unitShort": "Tbsps", "unitLong": "Tbsps" },
-                    "metric": { "amount": 3.0, "unitShort": "Tbsps", "unitLong": "Tbsps" }
-                }
-            }
+            { "original": "1 can fat free condensed milk" },
+            { "original": "1/4 cup lemon juice" },
+            { "original": "lemon rind finely grated (1 whole lemon)" },
+            { "original": "450 grams low fat cream cheese" },
+            { "original": "500 grams gm mango (fresh, canned or frozen)" },
+            { "original": "1 cup milk" },
+            { "original": "½ cup sugar" },
+            { "original": "1 teaspoon vanilla bean paste" },
+            { "original": "3 tablespoons water" }
         ],
         "id": 637624,
         "title": "Cheesecake Ice-Cream With Mango Syrup",
@@ -918,354 +138,37 @@
         "image": "https://img.spoonacular.com/recipes/637624-556x370.jpg",
         "summary": "If you have about <b>45 minutes</b> to spend in the kitchen, Cheesecake Ice-Cream With Mango Syrup might be a spectacular <b>gluten free and lacto ovo vegetarian</b> recipe to try. For <b>$1.27 per serving</b>, you get a dessert that serves 10. One serving contains <b>304 calories</b>, <b>8g of protein</b>, and <b>11g of fat</b>. 18 people were impressed by this recipe. Head to the store and pick up condensed milk, milk, water, and a few other things to make it today. It is brought to you by Foodista. Taking all factors into account, this recipe <b>earns a spoonacular score of 42%</b>, which is good. Try <a href=\"https://spoonacular.com/recipes/mango-chili-ice-cream-best-lick-2008-ice-cream-contest-entr-58729\">Mango Chili Ice Cream Best Lick! 2008 Ice Cream Contest Entr</a>, <a href=\"https://spoonacular.com/recipes/patriotic-ice-cream-sandwiches-with-red-velvet-shortbread-stars-cheesecake-ice-cream-497575\">Patriotic Ice Cream Sandwiches, with Red Velvet Shortbread Stars & Cheesecake Ice Cream</a>, and <a href=\"https://spoonacular.com/recipes/cherry-cheesecake-ice-cream-best-lick-2008-ice-cream-contes-70731\">Cherry Cheesecake Ice Cream Best Lick! 2008 Ice Cream Contes</a> for similar recipes.",
         "dishTypes": ["dessert"],
-        "analyzedInstructions": [
-            {
-                "name": "Add the first 6 ingredients to a two litre plastic jug.  Use a stick blender to thoroughly mix the ingredients and fluff the mixture up.d",
-                "steps": [
-                    {
-                        "number": 1,
-                        "step": "Place the jug in the freezer and freeze until the mixture starts to set.Use the stick blender to mix the ice-cream again for about 30 seconds. Return the mix to the freezer.Repeat this step again as the ice-cream is setting.Once the mixture has been re-mixed twice, transfer the ice-cream to a deep metal dish and return to the freezer.  Choose a dish which is large enough and has enough space to use the stick blender.Blend in the metal container twice before allowing to completely freeze.",
-                        "ingredients": [
-                            { "id": 1053, "name": "cream", "localizedName": "cream", "image": "fluid-cream.jpg" },
-                            { "id": 10014412, "name": "ice", "localizedName": "ice", "image": "ice-cubes.png" }
-                        ],
-                        "equipment": [
-                            {
-                                "id": 404726,
-                                "name": "blender",
-                                "localizedName": "blender",
-                                "image": "https://spoonacular.com/cdn/equipment_100x100/blender.png"
-                            }
-                        ]
-                    },
-                    {
-                        "number": 2,
-                        "step": "Place all the mango syrup ingredients in a saucepan and using a stick blender puree the mix.",
-                        "ingredients": [
-                            {
-                                "id": 9176,
-                                "name": "mango",
-                                "localizedName": "mango",
-                                "image": "https://spoonacular.com/cdn/ingredients_100x100/mango.jpg"
-                            },
-                            { "id": 0, "name": "syrup", "localizedName": "syrup", "image": "" }
-                        ],
-                        "equipment": [
-                            {
-                                "id": 404669,
-                                "name": "sauce pan",
-                                "localizedName": "sauce pan",
-                                "image": "https://spoonacular.com/cdn/equipment_100x100/sauce-pan.jpg"
-                            },
-                            {
-                                "id": 404726,
-                                "name": "blender",
-                                "localizedName": "blender",
-                                "image": "https://spoonacular.com/cdn/equipment_100x100/blender.png"
-                            }
-                        ]
-                    },
-                    {
-                        "number": 3,
-                        "step": "Heat the syrup and let it boil for 5 minutes stirring regularly.Reduce the heat slightly and stir for a further two minutes or until the mixture is at a desirable syrup consistently.  It will thicken slightly on cooling.",
-                        "ingredients": [{ "id": 0, "name": "syrup", "localizedName": "syrup", "image": "" }],
-                        "equipment": [],
-                        "length": { "number": 7, "unit": "minutes" }
-                    },
-                    {
-                        "number": 4,
-                        "step": "Pour the cooled syrup over the ice-cream for a delicious Mango Cheesecake Ice-Cream.",
-                        "ingredients": [
-                            { "id": 1053, "name": "cream", "localizedName": "cream", "image": "fluid-cream.jpg" },
-                            {
-                                "id": 9176,
-                                "name": "mango",
-                                "localizedName": "mango",
-                                "image": "https://spoonacular.com/cdn/ingredients_100x100/mango.jpg"
-                            },
-                            { "id": 0, "name": "syrup", "localizedName": "syrup", "image": "" },
-                            { "id": 10014412, "name": "ice", "localizedName": "ice", "image": "ice-cubes.png" }
-                        ],
-                        "equipment": []
-                    }
-                ]
-            }
-        ]
+        "analyzedInstructions": {
+            "steps": [
+                "Add the first 6 ingredients to a two litre plastic jug.  Use a stick blender to thoroughly mix the ingredients and fluff the mixture up.",
+                "Place the jug in the freezer and freeze until the mixture starts to set.Use the stick blender to mix the ice-cream again for about 30 seconds. Return the mix to the freezer.Repeat this step again as the ice-cream is setting.",
+                "Once the mixture has been re-mixed twice, transfer the ice-cream to a deep metal dish and return to the freezer.  Choose a dish which is large enough and has enough space to use the stick blender.",
+                "Blend in the metal container twice before allowing to completely freeze.",
+                "Place all the mango syrup ingredients in a saucepan and using a stick blender puree the mix.",
+                "Heat the syrup and let it boil for 5 minutes stirring regularly.",
+                "Reduce the heat slightly and stir for a further two minutes or until the mixture is at a desirable syrup consistently.  It will thicken slightly on cooling.",
+                "Pour the cooled syrup over the ice-cream for a delicious Mango Cheesecake Ice-Cream."
+            ]
+        }
     },
     {
         "extendedIngredients": [
-            {
-                "id": 1034053,
-                "aisle": "Oil, Vinegar, Salad Dressing",
-                "image": "olive-oil.jpg",
-                "consistency": "LIQUID",
-                "name": "extra virgin olive oil",
-                "nameClean": "extra virgin olive oil",
-                "original": "2 tablespoons extra virgin olive oil",
-                "originalName": "extra virgin olive oil",
-                "amount": 2.0,
-                "unit": "tablespoons",
-                "meta": [],
-                "measures": {
-                    "us": { "amount": 2.0, "unitShort": "Tbsps", "unitLong": "Tbsps" },
-                    "metric": { "amount": 2.0, "unitShort": "Tbsps", "unitLong": "Tbsps" }
-                }
-            },
-            {
-                "id": 10511282,
-                "aisle": "Produce",
-                "image": "brown-onion.png",
-                "consistency": "SOLID",
-                "name": "onion",
-                "nameClean": "yellow onion",
-                "original": "1 medium yellow onion, diced (about 1½ cups)",
-                "originalName": "medium yellow onion, diced (about",
-                "amount": 1.5,
-                "unit": "cups",
-                "meta": ["diced", "yellow"],
-                "measures": {
-                    "us": { "amount": 1.5, "unitShort": "cups", "unitLong": "cups" },
-                    "metric": { "amount": 240.0, "unitShort": "g", "unitLong": "grams" }
-                }
-            },
-            {
-                "id": 11141,
-                "aisle": "Produce",
-                "image": "celeriac.jpg",
-                "consistency": "SOLID",
-                "name": "celery root",
-                "nameClean": "celeriac",
-                "original": "1 medium celery root (also called celeriac), trimmed and diced (1½ to 2 cups)",
-                "originalName": "medium celery root (also called celeriac), trimmed and diced",
-                "amount": 1.5,
-                "unit": "cups",
-                "meta": ["diced", "trimmed", "(also called celeriac)"],
-                "measures": {
-                    "us": { "amount": 1.5, "unitShort": "cups", "unitLong": "cups" },
-                    "metric": { "amount": 234.0, "unitShort": "g", "unitLong": "grams" }
-                }
-            },
-            {
-                "id": 10211215,
-                "aisle": "Produce",
-                "image": "garlic.jpg",
-                "consistency": "SOLID",
-                "name": "garlic cloves",
-                "nameClean": "whole garlic cloves",
-                "original": "3 large garlic cloves, minced",
-                "originalName": "garlic cloves, minced",
-                "amount": 3.0,
-                "unit": "large",
-                "meta": ["minced"],
-                "measures": {
-                    "us": { "amount": 3.0, "unitShort": "large", "unitLong": "larges" },
-                    "metric": { "amount": 3.0, "unitShort": "large", "unitLong": "larges" }
-                }
-            },
-            {
-                "id": 11291,
-                "aisle": "Produce",
-                "image": "spring-onions.jpg",
-                "consistency": "SOLID",
-                "name": "scallions",
-                "nameClean": "spring onions",
-                "original": "½ cup chopped scallions, green tops only",
-                "originalName": "chopped scallions, green tops only",
-                "amount": 0.5,
-                "unit": "cup",
-                "meta": ["green", "chopped"],
-                "measures": {
-                    "us": { "amount": 0.5, "unitShort": "cups", "unitLong": "cups" },
-                    "metric": { "amount": 50.0, "unitShort": "g", "unitLong": "grams" }
-                }
-            },
-            {
-                "id": 11246,
-                "aisle": "Produce",
-                "image": "leeks.jpg",
-                "consistency": "SOLID",
-                "name": "leek confit",
-                "nameClean": "leek",
-                "original": "¼ cup Leek Confit",
-                "originalName": "Leek Confit",
-                "amount": 0.25,
-                "unit": "cup",
-                "meta": [],
-                "measures": {
-                    "us": { "amount": 0.25, "unitShort": "cups", "unitLong": "cups" },
-                    "metric": { "amount": 22.25, "unitShort": "g", "unitLong": "grams" }
-                }
-            },
-            {
-                "id": 1049003,
-                "aisle": "Produce",
-                "image": "apple.jpg",
-                "consistency": "SOLID",
-                "name": "fuji apple",
-                "nameClean": "fuji apple",
-                "original": "½ Fuji apple, peeled and diced",
-                "originalName": "Fuji apple, peeled and diced",
-                "amount": 0.5,
-                "unit": "",
-                "meta": ["diced", "peeled"],
-                "measures": {
-                    "us": { "amount": 0.5, "unitShort": "", "unitLong": "" },
-                    "metric": { "amount": 0.5, "unitShort": "", "unitLong": "" }
-                }
-            },
-            {
-                "id": 1032046,
-                "aisle": "Condiments",
-                "image": "dijon-mustard.jpg",
-                "consistency": "LIQUID",
-                "name": "dijon mustard",
-                "nameClean": "dijon mustard",
-                "original": "1 tablespoon country-style Dijon mustard",
-                "originalName": "country-style Dijon mustard",
-                "amount": 1.0,
-                "unit": "tablespoon",
-                "meta": ["country-style"],
-                "measures": {
-                    "us": { "amount": 1.0, "unitShort": "Tbsp", "unitLong": "Tbsp" },
-                    "metric": { "amount": 1.0, "unitShort": "Tbsp", "unitLong": "Tbsp" }
-                }
-            },
-            {
-                "id": 2063,
-                "aisle": "Produce",
-                "image": "rosemary.jpg",
-                "consistency": "SOLID",
-                "name": "rosemary",
-                "nameClean": "fresh rosemary",
-                "original": "1 teaspoon minced fresh rosemary",
-                "originalName": "minced fresh rosemary",
-                "amount": 1.0,
-                "unit": "teaspoon",
-                "meta": ["fresh", "minced"],
-                "measures": {
-                    "us": { "amount": 1.0, "unitShort": "tsp", "unitLong": "teaspoon" },
-                    "metric": { "amount": 1.0, "unitShort": "tsp", "unitLong": "teaspoon" }
-                }
-            },
-            {
-                "id": 6615,
-                "aisle": "Canned and Jarred",
-                "image": "chicken-broth.png",
-                "consistency": "LIQUID",
-                "name": "vegetable broth",
-                "nameClean": "vegetable stock",
-                "original": "5 cups vegetable broth",
-                "originalName": "vegetable broth",
-                "amount": 5.0,
-                "unit": "cups",
-                "meta": [],
-                "measures": {
-                    "us": { "amount": 5.0, "unitShort": "cups", "unitLong": "cups" },
-                    "metric": { "amount": 1.175, "unitShort": "l", "unitLong": "liters" }
-                }
-            },
-            {
-                "id": 10211352,
-                "aisle": "Produce",
-                "image": "new-potatoes.jpg",
-                "consistency": "SOLID",
-                "name": "baby potatoes",
-                "nameClean": "new potato",
-                "original": "⅔ cup quartered baby potatoes",
-                "originalName": "quartered baby potatoes",
-                "amount": 0.6666667,
-                "unit": "cup",
-                "meta": ["quartered"],
-                "measures": {
-                    "us": { "amount": 0.6666667, "unitShort": "cups", "unitLong": "cups" },
-                    "metric": { "amount": 100.0, "unitShort": "ml", "unitLong": "milliliters" }
-                }
-            },
-            {
-                "id": 11114,
-                "aisle": "Produce",
-                "image": "savoy-cabbage.jpg",
-                "consistency": "SOLID",
-                "name": "savoy cabbage",
-                "nameClean": "savoy cabbage",
-                "original": "½ small savoy cabbage, thinly sliced (about 3 cups)",
-                "originalName": "½ small savoy cabbage, thinly sliced (about",
-                "amount": 3.0,
-                "unit": "cups",
-                "meta": ["thinly sliced"],
-                "measures": {
-                    "us": { "amount": 3.0, "unitShort": "cups", "unitLong": "cups" },
-                    "metric": { "amount": 210.0, "unitShort": "g", "unitLong": "grams" }
-                }
-            },
-            {
-                "id": 1082047,
-                "aisle": "Spices and Seasonings",
-                "image": "salt.jpg",
-                "consistency": "SOLID",
-                "name": "kosher salt",
-                "nameClean": "kosher salt",
-                "original": "1 teaspoon kosher salt (or more, to taste)",
-                "originalName": "kosher salt (or more, to taste)",
-                "amount": 1.0,
-                "unit": "teaspoon",
-                "meta": ["to taste", "(, )"],
-                "measures": {
-                    "us": { "amount": 1.0, "unitShort": "tsp", "unitLong": "teaspoon" },
-                    "metric": { "amount": 1.0, "unitShort": "tsp", "unitLong": "teaspoon" }
-                }
-            },
-            {
-                "id": 1002030,
-                "aisle": "Spices and Seasonings",
-                "image": "pepper.jpg",
-                "consistency": "SOLID",
-                "name": "pepper",
-                "nameClean": "black pepper",
-                "original": "½ teaspoon black pepper",
-                "originalName": "black pepper",
-                "amount": 0.5,
-                "unit": "teaspoon",
-                "meta": ["black"],
-                "measures": {
-                    "us": { "amount": 0.5, "unitShort": "tsps", "unitLong": "teaspoons" },
-                    "metric": { "amount": 0.5, "unitShort": "tsps", "unitLong": "teaspoons" }
-                }
-            },
-            {
-                "id": 10020444,
-                "aisle": "Pasta and Rice",
-                "image": "rice-white-long-grain-or-basmatii-cooked.jpg",
-                "consistency": "SOLID",
-                "name": "brown basmati rice",
-                "nameClean": "basmati rice",
-                "original": "½ cup brown basmati rice",
-                "originalName": "brown basmati rice",
-                "amount": 0.5,
-                "unit": "cup",
-                "meta": [],
-                "measures": {
-                    "us": { "amount": 0.5, "unitShort": "cups", "unitLong": "cups" },
-                    "metric": { "amount": 92.5, "unitShort": "g", "unitLong": "grams" }
-                }
-            },
-            {
-                "id": 1032,
-                "aisle": "Cheese",
-                "image": "parmesan.jpg",
-                "consistency": "SOLID",
-                "name": "parmesan cheese",
-                "nameClean": "grated parmesan cheese",
-                "original": "½ cup grated Parmesan cheese, optional garnish",
-                "originalName": "grated Parmesan cheese, optional garnish",
-                "amount": 0.5,
-                "unit": "cup",
-                "meta": ["grated"],
-                "measures": {
-                    "us": { "amount": 0.5, "unitShort": "cups", "unitLong": "cups" },
-                    "metric": { "amount": 50.0, "unitShort": "g", "unitLong": "grams" }
-                }
-            }
+            { "original": "2 tablespoons extra virgin olive oil" },
+            { "original": "1 medium yellow onion, diced (about 1½ cups)" },
+            { "original": "1 medium celery root (also called celeriac), trimmed and diced (1½ to 2 cups)" },
+            { "original": "3 large garlic cloves, minced" },
+            { "original": "½ cup chopped scallions, green tops only" },
+            { "original": "¼ cup Leek Confit" },
+            { "original": "½ Fuji apple, peeled and diced" },
+            { "original": "1 tablespoon country-style Dijon mustard" },
+            { "original": "1 teaspoon minced fresh rosemary" },
+            { "original": "5 cups vegetable broth" },
+            { "original": "⅔ cup quartered baby potatoes" },
+            { "original": "½ small savoy cabbage, thinly sliced (about 3 cups)" },
+            { "original": "1 teaspoon kosher salt (or more, to taste)" },
+            { "original": "½ teaspoon black pepper" },
+            { "original": "½ cup brown basmati rice" },
+            { "original": "½ cup grated Parmesan cheese, optional garnish" }
         ],
         "id": 659513,
         "title": "Savoy Cabbage and Celery Root Soup with Leek Confit",
@@ -1276,89 +179,13 @@
         "summary": "Savoy Cabbage and Celery Root Soup with Leek Confit might be just the hor d\\'oeuvre you are searching for. This recipe serves 7. Watching your figure? This gluten free recipe has <b>183 calories</b>, <b>5g of protein</b>, and <b>6g of fat</b> per serving. For <b>$1.51 per serving</b>, this recipe <b>covers 10%</b> of your daily requirements of vitamins and minerals. A mixture of vegetable broth, garlic cloves, celery root, and a handful of other ingredients are all it takes to make this recipe so flavorful. It will be a hit at your <b>Autumn</b> event. 2 people found this recipe to be scrumptious and satisfying. It is brought to you by Foodista. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. With a spoonacular <b>score of 50%</b>, this dish is good. Similar recipes include <a href=\"https://spoonacular.com/recipes/savoy-cabbage-and-celery-root-soup-with-leek-confit-1404279\">Savoy Cabbage and Celery Root Soup with Leek Confit</a>, <a href=\"https://spoonacular.com/recipes/leek-and-celery-root-soup-619045\">Leek and Celery Root Soup</a>, and <a href=\"https://spoonacular.com/recipes/silky-leek-celery-root-soup-38324\">Silky Leek & Celery Root Soup</a>.",
         "dishTypes": ["antipasti", "soup", "starter", "snack", "appetizer", "antipasto", "hor d'oeuvre"],
         "diets": ["gluten free"],
-        "analyzedInstructions": [
-            {
-                "name": "",
-                "steps": [
-                    {
-                        "number": 1,
-                        "step": "Heat the olive oil in a heavy pot, such as a Le Creuset, over medium-high heat.",
-                        "ingredients": [
-                            {
-                                "id": 4053,
-                                "name": "olive oil",
-                                "localizedName": "olive oil",
-                                "image": "olive-oil.jpg"
-                            }
-                        ],
-                        "equipment": [
-                            {
-                                "id": 404752,
-                                "name": "pot",
-                                "localizedName": "pot",
-                                "image": "https://spoonacular.com/cdn/equipment_100x100/stock-pot.jpg"
-                            }
-                        ]
-                    },
-                    {
-                        "number": 2,
-                        "step": "Add the onion, celery root, garlic, scallion tops, and leek confit. Saut until the onion softens, about 15 minutes.",
-                        "ingredients": [
-                            {
-                                "id": 11141,
-                                "name": "celeriac",
-                                "localizedName": "celeriac",
-                                "image": "celeriac.jpg"
-                            },
-                            {
-                                "id": 11291,
-                                "name": "green onions",
-                                "localizedName": "green onions",
-                                "image": "spring-onions.jpg"
-                            },
-                            { "id": 11215, "name": "garlic", "localizedName": "garlic", "image": "garlic.png" },
-                            { "id": 11282, "name": "onion", "localizedName": "onion", "image": "brown-onion.png" },
-                            { "id": 11246, "name": "leek", "localizedName": "leek", "image": "leeks.jpg" }
-                        ],
-                        "equipment": [],
-                        "length": { "number": 15, "unit": "minutes" }
-                    },
-                    {
-                        "number": 3,
-                        "step": "Add the apple, mustard, and rosemary, and cook for another couple of minutes. The mixture will be very aromatic.",
-                        "ingredients": [
-                            {
-                                "id": 2036,
-                                "name": "rosemary",
-                                "localizedName": "rosemary",
-                                "image": "rosemary.jpg"
-                            },
-                            {
-                                "id": 2046,
-                                "name": "mustard",
-                                "localizedName": "mustard",
-                                "image": "regular-mustard.jpg"
-                            },
-                            { "id": 9003, "name": "apple", "localizedName": "apple", "image": "apple.jpg" }
-                        ],
-                        "equipment": []
-                    },
-                    {
-                        "number": 4,
-                        "step": "Add the remaining ingredients and bring to a low simmer. Cover and simmer for 40 minutes. Adjust seasoning if needed.",
-                        "ingredients": [
-                            {
-                                "id": 1042027,
-                                "name": "seasoning",
-                                "localizedName": "seasoning",
-                                "image": "seasoning.png"
-                            }
-                        ],
-                        "equipment": [],
-                        "length": { "number": 40, "unit": "minutes" }
-                    }
-                ]
-            }
-        ]
+        "analyzedInstructions": {
+            "steps": [
+                "Heat the olive oil in a heavy pot, such as a Le Creuset, over medium-high heat.",
+                "Add the onion, celery root, garlic, scallion tops, and leek confit. Saut until the onion softens, about 15 minutes.",
+                "Add the apple, mustard, and rosemary, and cook for another couple of minutes. The mixture will be very aromatic.",
+                "Add the remaining ingredients and bring to a low simmer. Cover and simmer for 40 minutes. Adjust seasoning if needed."
+            ]
+        }
     }
 ]

@@ -21,6 +21,6 @@ export class CounterComponent implements OnInit {
                     this.count++;
                 }
             }
-        }, 100);
+        }, 50);
     }
 }

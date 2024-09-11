@@ -1,6 +1,6 @@
 import { Component, OnInit } from "@angular/core";
-import { RecipesApiService } from "../../../recipes/business-logic/api/recipes-api.service";
 import { IRecipes } from "../../../recipes/interfaces/i-recipes";
+import { RecipesRequestsService } from "../../../recipes/business-logic/requests/recipes-requests.service";
 
 @Component({
     selector: "app-home",
@@ -8,7 +8,7 @@ import { IRecipes } from "../../../recipes/interfaces/i-recipes";
     styleUrl: "./home.component.css",
 })
 export class HomeComponent implements OnInit {
-    constructor(private recipesService: RecipesApiService) {}
+    constructor(private recipesService: RecipesRequestsService) {}
 
     recipes: IRecipes[] = [];
 
