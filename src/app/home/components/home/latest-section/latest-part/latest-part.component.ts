@@ -8,8 +8,4 @@ import { IRecipes } from "../../../../../recipes/interfaces/i-recipes";
 })
 export class LatestPartComponent {
     @Input() latest: IRecipes;
-
-    ngOnInit() {
-        console.log(this.latest);
-    }
 }

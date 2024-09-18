@@ -81,7 +81,6 @@ export class DialogEditRecipeComponent {
     }
 
     onEdit(currentRecipe: IRecipes): void {
-        console.log(currentRecipe);
         this.title.setValue(currentRecipe.title);
         this.minutes.setValue(currentRecipe.readyInMinutes.toString());
         this.servings.setValue(currentRecipe.servings.toString());
@@ -100,7 +99,6 @@ export class DialogEditRecipeComponent {
     }
 
     submitEditRecipe() {
-        console.log(this.image);
         if (
             this.title.invalid ||
             this.minutes.invalid ||

@@ -44,12 +44,6 @@ export class CommentSectionComponent {
     authorId: string = "";
     recipeId: number = 0;
     submitComment(): void {
-        console.log({
-            recipeId: this.recipeId,
-            authorId: this.authorId,
-            content: this.comment.value,
-            authorName: this.author.value,
-        });
         if (this.comment.value == "") {
             this.formIsValid = false;
         } else {
