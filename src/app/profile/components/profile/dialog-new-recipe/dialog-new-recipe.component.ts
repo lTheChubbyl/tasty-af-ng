@@ -24,12 +24,18 @@ export class DialogNewRecipeComponent {
     minutes = new FormControl("", [Validators.required, Validators.pattern(/^[0-9]{1,3}$/)]);
     servings = new FormControl("", [Validators.required, Validators.pattern(/^[0-9]{1,3}$/)]);
     image: any = {};
-    summary = new FormControl("", [Validators.required, Validators.pattern(/^[a-zA-Z0-9\s,|()<>:\/".\-]{3,500}$/)]);
+    summary = new FormControl("", [
+        Validators.required,
+        Validators.pattern(/^[a-zA-Z0-9\s,|()<>:\/".\-!@#$%^&*()_+\-=\[\]{};':"\\|,.<>/?]+$/),
+    ]);
     dishTypes: any = [];
-    ingredients = new FormControl("", [Validators.required, Validators.pattern(/^[a-zA-Z0-9\s,|():\/".\-]{3,500}$/)]);
+    ingredients = new FormControl("", [
+        Validators.required,
+        Validators.pattern(/^[a-zA-Z0-9\s,|()<>:\/".\-!@#$%^&*()_+\-=\[\]{};':"\\|,.<>/?]+$/),
+    ]);
     analyzedInstructions = new FormControl("", [
         Validators.required,
-        Validators.pattern(/^[a-zA-Z0-9\s,|():\/".\-]{3,500}$/),
+        Validators.pattern(/^[a-zA-Z0-9\s,|()<>:\/".\-!@#$%^&*()_+\-=\[\]{};':"\\|,.<>/?]+$/),
     ]);
 
     formIsValid: boolean = true;
