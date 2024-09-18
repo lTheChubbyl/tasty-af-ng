@@ -21,7 +21,7 @@ export class AuthComponent {
         username: new FormControl("", [Validators.required, Validators.pattern(`^[a-zA-Z0-9_.]{3,20}$`)]),
         password: new FormControl("", [
             Validators.required,
-            Validators.pattern(`^(?=.*?[A-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}`),
+            Validators.pattern(`^(?=.*?[A-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$`),
         ]),
     });
 
@@ -42,11 +42,12 @@ export class AuthComponent {
             this.requestsService.login(data).subscribe({
                 next: (res) => {
                     console.log(res);
-                    this.authService.setJwtToken(res.jwtToken);
+                    this.authService.setJwtToken(res.token);
                     this.router.navigateByUrl("/");
                 },
                 error: (err) => {
                     console.log(err);
+                    this.formIsValid = false;
                 },
             });
         } else {
@@ -57,7 +58,7 @@ export class AuthComponent {
     getData(): IAuth {
         let FormValue = this.form.getRawValue();
         return {
-            username: FormValue.username,
+            userName: FormValue.username,
             password: FormValue.password,
         };
     }

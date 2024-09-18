@@ -13,16 +13,21 @@
                     } -->
                     @for (recipe of recipes; track recipe.id) {
                     <app-recipe-preview [recipe]="recipe"></app-recipe-preview>
+                    } @empty {
+                    <div class="text-center py-5">
+                        <h2 class="fw-bold text-uppercase">No recipes found</h2>
+                        <p class="fs-2">Try searching for a different term or check back later for more recipes</p>
+                    </div>
                     }
 
-                    <ul class="blog-4__pagination d-flex flex-wrap align-items-center justify-content-start">
+                    <!-- <ul class="blog-4__pagination d-flex flex-wrap align-items-center justify-content-start">
                         <li><a class="active" href="#">1</a></li>
                         <li><a href="#">2</a></li>
                         <li><a href="#">3</a></li>
                         <li>
                             <a href="#"><i class="fa-regular fa-arrow-right"></i></a>
                         </li>
-                    </ul>
+                    </ul> -->
                 </div>
             </div>
             <div class="col-xl-4">

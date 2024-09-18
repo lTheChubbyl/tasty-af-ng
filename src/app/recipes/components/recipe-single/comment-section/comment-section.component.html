@@ -33,45 +33,18 @@
         } @else {
         <div class="contact-us-message__form">
             <div class="row g-20">
-                <div class="col-xl-6">
-                    <div class="contact-us-message__form-input unavailable">
-                        <i class="fa-light fa-user"></i>
-                        <input
-                            name="name"
-                            id="name"
-                            type="text"
-                            placeholder="Your Name"
-                            [value]="author"
-                            disabled
-                            readonly
-                        />
-                    </div>
-                </div>
-                <div class="col-xl-6">
-                    <div class="contact-us-message__form-input unavailable">
-                        <i class="fa-light fa-envelope"></i>
-                        <input
-                            name="email"
-                            id="email"
-                            type="email"
-                            placeholder="Email Address"
-                            [value]="email"
-                            disabled
-                            readonly
-                        />
-                    </div>
-                </div>
-
-                <div class="col-sm-12">
-                    <div class="contact-us-message__form-input">
-                        <textarea
-                            name="textarea"
-                            id="textarea"
-                            placeholder="Type Your Message"
-                            [(ngModel)]="text"
-                        ></textarea>
-                    </div>
-                </div>
+                <mat-form-field>
+                    <mat-label>Full Name</mat-label>
+                    <input matInput [formControl]="author" />
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Email Address</mat-label>
+                    <input matInput [formControl]="email" />
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Write Your Comment</mat-label>
+                    <textarea matInput placeholder="Summary" [formControl]="comment"></textarea>
+                </mat-form-field>
 
                 @if (!formIsValid) {
                 <div class="col-12 text-center">

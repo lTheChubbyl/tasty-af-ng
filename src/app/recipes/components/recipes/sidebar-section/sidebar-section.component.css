@@ -1,0 +1,8 @@
+.active {
+    background-color: var(--rr-theme-primary);
+    color: var(--rr-common-white);
+}
+
+.active i {
+    color: var(--rr-common-white);
+}

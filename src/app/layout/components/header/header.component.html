@@ -79,9 +79,16 @@
                         </div>
                     </div>
                     <div class="search__form">
-                        <form>
+                        <form (submit)="submitSearch()">
                             <div class="search__input">
-                                <input class="search-input-field" type="text" placeholder="Type here to search..." />
+                                <input
+                                    class="search-input-field"
+                                    type="text"
+                                    placeholder="Type here to search..."
+                                    id="search"
+                                    name="search"
+                                    [(ngModel)]="searchTerm"
+                                />
                                 <span class="search-focus-border"></span>
                                 <button type="submit">
                                     <i class="fa-regular fa-magnifying-glass fs-1"></i>
@@ -156,23 +163,28 @@
                                     <nav id="mobile-menu">
                                         <ul>
                                             <li>
-                                                <a routerLink="/home">Home</a>
+                                                <a routerLink="/home" routerLinkActive="active">Home</a>
                                             </li>
                                             <li class="has-dropdown">
-                                                <a routerLink="/recipes">Recipes</a>
+                                                <a routerLink="/recipes" routerLinkActive="active">Recipes</a>
                                                 <ul class="submenu">
                                                     <li>
                                                         <a routerLink="/recipes">All recipes</a>
                                                     </li>
-                                                    @for (category of categoryArray; track category.key) {
+                                                    @for (category of categoryArray; track category.id) {
                                                     <li>
-                                                        <a routerLink="/recipes"> {{ category.value }}</a>
+                                                        <a
+                                                            routerLink="/recipes"
+                                                            [queryParams]="{ category: category.id }"
+                                                        >
+                                                            {{ category.name }}</a
+                                                        >
                                                     </li>
                                                     }
                                                 </ul>
                                             </li>
-                                            <li><a routerLink="/about">About us</a></li>
-                                            <li><a routerLink="/contact">Contact</a></li>
+                                            <li><a routerLink="/about" routerLinkActive="active">About us</a></li>
+                                            <li><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div>

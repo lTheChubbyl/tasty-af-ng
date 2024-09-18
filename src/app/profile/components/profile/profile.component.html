@@ -1,182 +1,5 @@
 <app-base-half-hero title="Profile page" page="Profile" image="assets/imgs/cta-2/cta.jpg"></app-base-half-hero>
 
-<div
-    class="modal fade modal-lg"
-    id="addRecipeModal"
-    tabindex="-1"
-    aria-labelledby="addRecipeModalLabel"
-    aria-hidden="true"
->
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h1 class="modal-title fs-1" id="addRecipeModalLabel">User Recipe Form</h1>
-                <button type="button" class="btn-close fs-2" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="contact-us-message__form-input">
-                            <div class="validation__wrapper-up position-relative">
-                                <input
-                                    name="rTitle"
-                                    id="rTitle"
-                                    type="text"
-                                    placeholder="Recipe Title"
-                                    [(ngModel)]="rTitle"
-                                />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="contact-us-message__form-input">
-                            <div class="validation__wrapper-up position-relative">
-                                <input
-                                    name="rMinutes"
-                                    id="rMinutes"
-                                    type="number"
-                                    placeholder="Ready In Minutes"
-                                    [(ngModel)]="rMinutes"
-                                />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="contact-us-message__form-input">
-                            <div class="validation__wrapper-up position-relative">
-                                <input
-                                    name="rServings"
-                                    id="rServings"
-                                    type="number"
-                                    placeholder="Number of Servings"
-                                    [(ngModel)]="rServings"
-                                />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="contact-us-message__form-input">
-                            <div class="validation__wrapper-up position-relative">
-                                <label for="rImage">Recipe Image</label>
-                                <input
-                                    name="rImage"
-                                    id="rImage"
-                                    class="border border-0 bg-transparent"
-                                    type="file"
-                                    placeholder="Upload Image"
-                                    (change)="onFileChange($event)"
-                                />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="contact-us-message__form-input">
-                            <div class="validation__wrapper-up position-relative">
-                                <textarea
-                                    name="rSummary"
-                                    id="rSummary"
-                                    placeholder="Summary"
-                                    [(ngModel)]="rSummary"
-                                ></textarea>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div>
-                            <div class="validation__wrapper-up position-relative">
-                                <label for="rDishTypes">Categories</label>
-                                <div class="form-check">
-                                    <input
-                                        class="form-check-input"
-                                        type="checkbox"
-                                        value="Breakfast"
-                                        id="breakfast"
-                                        [(ngModel)]="rDishTypes['Breakfast']"
-                                    />
-                                    <label class="form-check-label" for="breakfast">Breakfast</label>
-                                </div>
-                                <div class="form-check">
-                                    <input
-                                        class="form-check-input"
-                                        type="checkbox"
-                                        value="Main course"
-                                        id="mainCourse"
-                                        [(ngModel)]="rDishTypes['Main course']"
-                                    />
-                                    <label class="form-check-label" for="mainCourse">Main course</label>
-                                </div>
-                                <div class="form-check">
-                                    <input
-                                        class="form-check-input"
-                                        type="checkbox"
-                                        value="Dessert"
-                                        id="dessert"
-                                        [(ngModel)]="rDishTypes['Dessert']"
-                                    />
-                                    <label class="form-check-label" for="dessert">Dessert</label>
-                                </div>
-                                <div class="form-check">
-                                    <input
-                                        class="form-check-input"
-                                        type="checkbox"
-                                        value="Drink"
-                                        id="drink"
-                                        [(ngModel)]="rDishTypes['Drink']"
-                                    />
-                                    <label class="form-check-label" for="drink">Drink</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="contact-us-message__form-input">
-                            <div class="validation__wrapper-up position-relative">
-                                <input
-                                    name="rIngredients"
-                                    id="rIngredients"
-                                    type="text"
-                                    placeholder='Ingredients divided by "|"'
-                                    [(ngModel)]="rIngredients"
-                                />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="contact-us-message__form-input">
-                            <div class="validation__wrapper-up position-relative">
-                                <input
-                                    name="rAnalyzedInstructions"
-                                    id="rAnalyzedInstructions"
-                                    type="text"
-                                    placeholder='Instruction divided by "|"'
-                                    [(ngModel)]="rAnalyzedInstructions"
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                @if (mode === "add") {
-                <button type="button" class="rr-btn-3__header" (click)="addRecipe()">
-                    <span class="btn-wrap">
-                        <span class="text-one">Add recipe</span>
-                        <span class="text-two">Add recipe</span>
-                    </span>
-                </button>
-                } @else if (mode === "edit") {
-                <button type="button" class="rr-btn-3__header" (click)="editRecipe()">
-                    <span class="btn-wrap">
-                        <span class="text-one">Confirm edit</span>
-                        <span class="text-two">Confirm edit</span>
-                    </span>
-                </button>
-                }
-            </div>
-        </div>
-    </div>
-</div>
-
 <div class="container">
     <div class="row">
         <div class="col-6">
@@ -187,77 +10,66 @@
                 </div>
                 <form class="contact-us-message__form" (submit)="submitForm()">
                     <div class="row">
-                        <div class="col-12">
-                            <div class="contact-us-message__form-input">
-                                <div class="validation__wrapper-up position-relative">
-                                    <i class="fa-light fa-user"></i>
-                                    <input
-                                        name="firstName"
-                                        id="firstName"
-                                        type="text"
-                                        placeholder="First Name"
-                                        [(ngModel)]="user.firstName"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="contact-us-message__form-input">
-                                <div class="validation__wrapper-up position-relative">
-                                    <i class="fa-light fa-user"></i>
-                                    <input
-                                        name="lastName"
-                                        id="lastName"
-                                        type="text"
-                                        placeholder="Last Name"
-                                        [(ngModel)]="user.lastName"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="contact-us-message__form-input">
-                                <div class="validation__wrapper-up position-relative">
-                                    <i class="fa-light fa-envelope"></i>
-                                    <input
-                                        name="email"
-                                        id="email"
-                                        type="email"
-                                        placeholder="Email Address"
-                                        [(ngModel)]="user.email"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="contact-us-message__form-input">
-                                <div class="validation__wrapper-up position-relative">
-                                    <i class="fa-light fa-lock-keyhole"></i>
-                                    <input name="password" id="password" type="password" placeholder="Password" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="contact-us-message__form-input">
-                                <div class="validation__wrapper-up position-relative">
-                                    <i class="fa-light fa-lock-keyhole"></i>
-                                    <input name="password" id="password" type="password" placeholder="New Password" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="contact-us-message__form-input">
-                                <div class="validation__wrapper-up position-relative">
-                                    <i class="fa-sharp fa-light fa-circle-check"></i>
-                                    <input
-                                        name="confirmPassword"
-                                        id="confirmPassword"
-                                        type="password"
-                                        placeholder="Confirm Password"
-                                    />
-                                </div>
-                            </div>
-                        </div>
+                        <mat-form-field>
+                            <mat-label>First Name</mat-label>
+                            <input matInput [formControl]="firstName" [errorStateMatcher]="matcher" />
+                            @if (firstName.hasError('pattern')) {
+                            <mat-error>Please enter a valid first name</mat-error>
+                            }
+                        </mat-form-field>
+                        <mat-form-field>
+                            <mat-label>Last Name</mat-label>
+                            <input matInput [formControl]="lastName" [errorStateMatcher]="matcher" />
+                            @if (lastName.hasError('pattern')) {
+                            <mat-error>Please enter a valid last name</mat-error>
+                            }
+                        </mat-form-field>
+                        <mat-form-field>
+                            <mat-label>Username</mat-label>
+                            <input matInput [formControl]="username" [errorStateMatcher]="matcher" />
+                            @if (username.hasError('pattern')) {
+                            <mat-error>Please enter a valid username</mat-error>
+                            }
+                        </mat-form-field>
+                        <mat-form-field>
+                            <mat-label>Email Address</mat-label>
+                            <input matInput [formControl]="email" [errorStateMatcher]="matcher" />
+                            @if (email.hasError('email')) {
+                            <mat-error>Please enter a valid email address</mat-error>
+                            }
+                        </mat-form-field>
+                        <mat-form-field>
+                            <mat-label>New Password</mat-label>
+                            <input
+                                matInput
+                                [formControl]="newPassword"
+                                [errorStateMatcher]="matcher"
+                                [type]="hide ? 'password' : 'text'"
+                            />
+                            <button type="button" mat-icon-button matSuffix (click)="hide = !hide">
+                                <mat-icon>{{ hide ? "visibility_off" : "visibility" }}</mat-icon>
+                            </button>
+                            @if (newPassword.hasError('pattern')) {
+                            <mat-error
+                                >At least 8 characters, 1 uppercase letter, 1 number, 1 special character</mat-error
+                            >
+                            }
+                        </mat-form-field>
+                        <mat-form-field>
+                            <mat-label>Confirm Password</mat-label>
+                            <input
+                                type="password"
+                                matInput
+                                [formControl]="confirmPassword"
+                                [errorStateMatcher]="matcher"
+                            />
+                            @if (confirmPassword.hasError('pattern')) {
+                            <mat-error>Please enter a valid confirm password</mat-error>
+                            }
+                        </mat-form-field>
+                        @if (!formIsValid) {
+                        <p class="text-danger">Please fill in all required fields</p>
+                        }
                         <div class="col-12 mb-50">
                             <button type="submit" class="rr-btn-solid">
                                 <span class="btn-wrap">
@@ -268,6 +80,7 @@
                         </div>
                     </div>
                 </form>
+                <button type="button" class="btn fs-3 text-danger" (click)="openDeleteDialog()">Delete profile?</button>
             </div>
         </div>
         <div class="col-6">
@@ -276,13 +89,7 @@
                     <h3 class="text-uppercase fw-bold mb-1">Your recipes</h3>
                     <p>View and update your recipes.</p>
 
-                    <button
-                        type="button"
-                        class="rr-btn-3__header mb-30"
-                        data-bs-toggle="modal"
-                        data-bs-target="#addRecipeModal"
-                        (click)="mode = 'add'"
-                    >
+                    <button type="button" class="rr-btn-3__header mb-30" (click)="openNewRecipeDialog()">
                         <span class="btn-wrap">
                             <span class="text-one">Add Recipe <i class="fa-regular fa-plus"></i></span>
                             <span class="text-two">Add Recipe <i class="fa-regular fa-plus"></i></span>
@@ -293,9 +100,15 @@
                     <app-recipe-preview
                         [recipe]="recipe"
                         [isUserRecipe]="true"
-                        (editRecipe)="onEdit($event)"
-                        (click)="mode = 'edit'"
+                        (editRecipe)="openEditRecipeDialog(recipe)"
+                        (deleteRecipe)="openDeleteRecipeDialog(recipe)"
                     ></app-recipe-preview>
+                    } @empty {
+                    <div class="text-center pt-5">
+                        <i class="fa-regular fa-circle-info fs-1"></i>
+                        <h4 class="text-muted">No recipes yet</h4>
+                        <p class="fs-2">Start adding your recipes now!</p>
+                    </div>
                     }
                 </div>
             </div>

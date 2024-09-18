@@ -9,25 +9,29 @@ export class CategoriesSectionComponent {
     categoryList: any = [
         {
             id: 1,
-            link: "/recipes?category=1",
+            path: "/recipes",
+            queryParams: { category: 1 },
             img: "breakfast.jpg",
             name: "Breakfast",
         },
         {
             id: 2,
-            link: "/recipes?category=2",
+            path: "/recipes",
+            queryParams: { category: 6 },
             img: "lunch.jpg",
             name: "Lunch",
         },
         {
             id: 3,
-            link: "/recipes?category=3",
+            path: "/recipes",
+            queryParams: { category: 7 },
             img: "dinner.jpg",
             name: "Dinner",
         },
         {
             id: 4,
-            link: "/recipes?category=4",
+            path: "/recipes",
+            queryParams: { category: 3 },
             img: "dessert.jpg",
             name: "Dessert",
         },

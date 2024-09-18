@@ -2133,22 +2133,11 @@ a:hover {
     height: 100%;
     -webkit-transform: translateX(calc(100% + 80px));
     transform: translateX(calc(100% + 80px));
-    -webkit-transition:
-        transform 0.45s ease-in-out,
-        opacity 0.45s ease-in-out;
-    -webkit-transition:
-        opacity 0.45s ease-in-out,
-        -webkit-transform 0.45s ease-in-out;
-    transition:
-        opacity 0.45s ease-in-out,
-        -webkit-transform 0.45s ease-in-out;
-    transition:
-        transform 0.45s ease-in-out,
-        opacity 0.45s ease-in-out;
-    transition:
-        transform 0.45s ease-in-out,
-        opacity 0.45s ease-in-out,
-        -webkit-transform 0.45s ease-in-out;
+    -webkit-transition: transform 0.45s ease-in-out, opacity 0.45s ease-in-out;
+    -webkit-transition: opacity 0.45s ease-in-out, -webkit-transform 0.45s ease-in-out;
+    transition: opacity 0.45s ease-in-out, -webkit-transform 0.45s ease-in-out;
+    transition: transform 0.45s ease-in-out, opacity 0.45s ease-in-out;
+    transition: transform 0.45s ease-in-out, opacity 0.45s ease-in-out, -webkit-transform 0.45s ease-in-out;
     z-index: 9999;
     overflow-y: scroll;
     overscroll-behavior-y: contain;
@@ -2414,19 +2403,10 @@ a:hover {
     height: 2px;
     width: 100%;
     background-color: currentColor;
-    -webkit-transition:
-        top 0.15s ease,
-        -webkit-transform 0.3s ease;
-    transition:
-        top 0.15s ease,
-        -webkit-transform 0.3s ease;
-    transition:
-        top 0.15s ease,
-        transform 0.3s ease;
-    transition:
-        top 0.15s ease,
-        transform 0.3s ease,
-        -webkit-transform 0.3s ease;
+    -webkit-transition: top 0.15s ease, -webkit-transform 0.3s ease;
+    transition: top 0.15s ease, -webkit-transform 0.3s ease;
+    transition: top 0.15s ease, transform 0.3s ease;
+    transition: top 0.15s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 .offcanvas-close-icon .offcanvas-m-line.line--1 {
     top: 0;
@@ -3705,9 +3685,7 @@ a:hover {
     -webkit-transition: -webkit-transform 0.5s ease-in-out;
     transition: -webkit-transform 0.5s ease-in-out;
     transition: transform 0.5s ease-in-out;
-    transition:
-        transform 0.5s ease-in-out,
-        -webkit-transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
     -webkit-animation: panel 1s;
     animation: panel 1s;
     -webkit-animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
@@ -3736,9 +3714,7 @@ a:hover {
     -webkit-transition: -webkit-transform 0.5s ease-in-out;
     transition: -webkit-transform 0.5s ease-in-out;
     transition: transform 0.5s ease-in-out;
-    transition:
-        transform 0.5s ease-in-out,
-        -webkit-transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
     -webkit-animation: clip-a-z 1s;
     animation: clip-a-z 1s;
     -webkit-animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
@@ -3965,22 +3941,11 @@ a:hover {
     backdrop-filter: blur(16px);
     -webkit-transform: translateY(calc(-100% - 80px));
     transform: translateY(calc(-100% - 80px));
-    -webkit-transition:
-        transform 0.6s ease-in-out,
-        opacity 0.6s ease-in-out;
-    -webkit-transition:
-        opacity 0.6s ease-in-out,
-        -webkit-transform 0.6s ease-in-out;
-    transition:
-        opacity 0.6s ease-in-out,
-        -webkit-transform 0.6s ease-in-out;
-    transition:
-        transform 0.6s ease-in-out,
-        opacity 0.6s ease-in-out;
-    transition:
-        transform 0.6s ease-in-out,
-        opacity 0.6s ease-in-out,
-        -webkit-transform 0.6s ease-in-out;
+    -webkit-transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+    -webkit-transition: opacity 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+    transition: opacity 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
     -webkit-transition-delay: 0.7s;
     transition-delay: 0.7s;
 }
@@ -6172,7 +6137,7 @@ a.ui-button:active {
     left: 0;
     padding: 0;
     width: 100%;
-    z-index: 1030;
+    z-index: 1029;
     background-color: transparent;
     position: fixed;
 }
@@ -6261,9 +6226,7 @@ a.ui-button:active {
 .header-2 .header__bottom-menu li a i,
 .header-2 .header__bottom-menu li button i {
     color: var(--rr-common-white);
-    transition:
-        color 0.2s ease-in-out,
-        background-color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 .header-2 .header__bottom-menu li a:hover i,
 .header-2 .header__bottom-menu li button:hover i {
@@ -6463,12 +6426,8 @@ a.ui-button:active {
     transform-origin: 50% 0;
     -webkit-transform: scale(0.75) translateY(-21px);
     transform: scale(0.75) translateY(-21px);
-    -webkit-transition:
-        all 0.2s cubic-bezier(0.5, 0, 0, 1.25),
-        opacity 0.15s ease-out;
-    transition:
-        all 0.2s cubic-bezier(0.5, 0, 0, 1.25),
-        opacity 0.15s ease-out;
+    -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
     z-index: 9;
 }
 .header-2 .header__lang__select .nice-select .option {
@@ -6510,7 +6469,7 @@ a.ui-button:active {
     padding: 0;
     left: 0;
     width: 100%;
-    z-index: 1030;
+    z-index: 1029;
     background-color: transparent;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -7242,12 +7201,8 @@ a.ui-button:active {
     transform-origin: 50% 0;
     -webkit-transform: scale(0.75) translateY(-21px);
     transform: scale(0.75) translateY(-21px);
-    -webkit-transition:
-        all 0.2s cubic-bezier(0.5, 0, 0, 1.25),
-        opacity 0.15s ease-out;
-    transition:
-        all 0.2s cubic-bezier(0.5, 0, 0, 1.25),
-        opacity 0.15s ease-out;
+    -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
     z-index: 9;
 }
 .banner-3__book-a-table__select .nice-select .option {
@@ -7856,12 +7811,8 @@ a.ui-button:active {
     visibility: visible;
     opacity: 1;
     clip: rect(0px, 100vw, 200vh, -30px);
-    -webkit-transition:
-        clip 0.6s linear,
-        opacity 0.4s linear;
-    transition:
-        clip 0.6s linear,
-        opacity 0.4s linear;
+    -webkit-transition: clip 0.6s linear, opacity 0.4s linear;
+    transition: clip 0.6s linear, opacity 0.4s linear;
 }
 .main-menu-2 ul li > a {
     padding: 0;
@@ -11519,12 +11470,8 @@ a.ui-button:active {
     transform-origin: 50% 0;
     -webkit-transform: scale(0.75) translateY(-21px);
     transform: scale(0.75) translateY(-21px);
-    -webkit-transition:
-        all 0.2s cubic-bezier(0.5, 0, 0, 1.25),
-        opacity 0.15s ease-out;
-    transition:
-        all 0.2s cubic-bezier(0.5, 0, 0, 1.25),
-        opacity 0.15s ease-out;
+    -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
     z-index: 9;
 }
 .book-a-table__content-form__select .nice-select .option {
@@ -13828,12 +13775,8 @@ a.ui-button:active {
     transform-origin: 50% 0;
     -webkit-transform: scale(0.75) translateY(-21px);
     transform: scale(0.75) translateY(-21px);
-    -webkit-transition:
-        all 0.2s cubic-bezier(0.5, 0, 0, 1.25),
-        opacity 0.15s ease-out;
-    transition:
-        all 0.2s cubic-bezier(0.5, 0, 0, 1.25),
-        opacity 0.15s ease-out;
+    -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
     z-index: 9;
 }
 .book-a-table-2__form__select .nice-select .option {
@@ -14411,12 +14354,8 @@ a.ui-button:active {
     transform-origin: 50% 0;
     -webkit-transform: scale(0.75) translateY(-21px);
     transform: scale(0.75) translateY(-21px);
-    -webkit-transition:
-        all 0.2s cubic-bezier(0.5, 0, 0, 1.25),
-        opacity 0.15s ease-out;
-    transition:
-        all 0.2s cubic-bezier(0.5, 0, 0, 1.25),
-        opacity 0.15s ease-out;
+    -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
     z-index: 9;
 }
 .contact-us-message__form .nice-select .option {
@@ -14615,12 +14554,8 @@ a.ui-button:active {
     transform-origin: 50% 0;
     -webkit-transform: scale(0.75) translateY(-21px);
     transform: scale(0.75) translateY(-21px);
-    -webkit-transition:
-        all 0.2s cubic-bezier(0.5, 0, 0, 1.25),
-        opacity 0.15s ease-out;
-    transition:
-        all 0.2s cubic-bezier(0.5, 0, 0, 1.25),
-        opacity 0.15s ease-out;
+    -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
     z-index: 9;
 }
 .book-a-table-3__select .nice-select .option {
@@ -15851,12 +15786,8 @@ a.ui-button:active {
     transform-origin: 50% 0;
     -webkit-transform: scale(0.75) translateY(-21px);
     transform: scale(0.75) translateY(-21px);
-    -webkit-transition:
-        all 0.2s cubic-bezier(0.5, 0, 0, 1.25),
-        opacity 0.15s ease-out;
-    transition:
-        all 0.2s cubic-bezier(0.5, 0, 0, 1.25),
-        opacity 0.15s ease-out;
+    -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
     z-index: 9;
 }
 .checkout-form__item-input-select .nice-select .option {

@@ -121,11 +121,11 @@ import { AuthService } from "./business-logic/auth.service";
     declarations: [BaseSidebarCardComponent, BaseHalfHeroComponent, BaseButtonComponent],
     providers: [
         AuthService,
-        {
-            provide: HTTP_INTERCEPTORS,
-            useClass: AuthInterceptor,
-            multi: true,
-        },
+        // {
+        //     provide: HTTP_INTERCEPTORS,
+        //     useClass: AuthInterceptor,
+        //     multi: true,
+        // },
     ],
 })
 export class SharedModule {}

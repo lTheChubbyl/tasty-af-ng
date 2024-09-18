@@ -19,8 +19,11 @@
 
         <div class="sidebar__widget section-bg-2" app-base-sidebar-card title="Categories">
             <div class="sidebar__widget-category">
-                @for (category of categoryArray; track category.key) {
-                <a routerLink="/recipes"> {{ category.value }}<i class="fa-solid fa-arrow-right"></i> </a>
+                <a routerLink="/recipes"> All <i class="fa-solid fa-arrow-right"></i> </a>
+                @for (category of categoryArray; track category.id) {
+                <a routerLink="/recipes" [queryParams]="{ category: category.id }" routerLinkActive="active">
+                    {{ category.name }}<i class="fa-solid fa-arrow-right"></i>
+                </a>
                 }
             </div>
         </div>

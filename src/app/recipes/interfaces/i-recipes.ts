@@ -1,5 +1,5 @@
 export interface IRecipes {
-    extendedIngredients: { original: string }[];
+    extendedIngredients: string[];
     id: number;
     title: string;
     readyInMinutes: number;
@@ -7,6 +7,6 @@ export interface IRecipes {
     image: string;
     summary: string;
     dishTypes: string[];
-    analyzedInstructions: { steps: string[] };
-    author?: string;
+    analyzedInstructions: string[];
+    authorName?: string;
 }

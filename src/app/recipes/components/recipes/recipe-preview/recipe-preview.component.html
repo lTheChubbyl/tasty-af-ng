@@ -17,7 +17,7 @@
 
     <div class="blog-4__item-content">
         <ul class="blog-4__item-meta mb-15">
-            <li><i class="fa-solid fa-circle-user"></i>by {{ recipe.author || "Foodista" }}</li>
+            <li><i class="fa-solid fa-circle-user"></i>by {{ recipe.authorName || "Foodista" }}</li>
         </ul>
 
         <h4 class="blog-4__item-content-title text-uppercase fw-bold mb-15">
@@ -26,17 +26,14 @@
         <p class="blog-4__item-content-p mb-20 text-truncate" [innerHTML]="recipe.summary"></p>
 
         @if (isUserRecipe) {
-        <button
-            type="button"
-            class="rr-btn-3__header mb-30"
-            data-bs-toggle="modal"
-            data-bs-target="#addRecipeModal"
-            (click)="onEdit()"
-        >
+        <button type="button" class="rr-btn-3__header mb-30 me-5" (click)="editRecipe.emit(recipe)">
             <span class="btn-wrap">
                 <span class="text-one">Edit Recipe <i class="fa-regular fa-plus"></i></span>
                 <span class="text-two">Edit Recipe <i class="fa-regular fa-plus"></i></span>
             </span>
+        </button>
+        <button type="button" class="btn fs-3 text-danger" (click)="deleteRecipe.emit(recipe)">
+            <i class="fa-regular fa-trash-can"></i>
         </button>
         } @else {
         <a [routerLink]="'/recipes/' + recipe.id" class="readmore"

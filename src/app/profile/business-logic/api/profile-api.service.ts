@@ -1,4 +1,4 @@
-import { HttpClient } from "@angular/common/http";
+import { HttpClient, HttpHeaders } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { IRecipes } from "../../../recipes/interfaces/i-recipes";
 import { Observable } from "rxjs";
@@ -7,13 +7,58 @@ import { Observable } from "rxjs";
     providedIn: "root",
 })
 export class ProfileApiService {
-    constructor(public http: HttpClient) {}
+    private baseUrl = "https://localhost:7165/api/";
 
-    getRecipes(): Observable<IRecipes[]> {
-        return this.http.get<IRecipes[]>("assets/jsons/user-recipes.json");
+    constructor(private http: HttpClient) {}
+
+    token = localStorage.getItem("token");
+
+    getProfileInfo(): Observable<any> {
+        const headers = new HttpHeaders({
+            Authorization: `Bearer ${this.token ?? ""}`,
+        });
+        return this.http.get<any>(`${this.baseUrl}User/profile`, { headers });
     }
 
-    addUserRecipe(recipe: IRecipes): Observable<IRecipes> {
-        return this.http.post<IRecipes>("assets/jsons/user-recipes.json", recipe);
+    updateProfile(data: any): Observable<any> {
+        const headers = new HttpHeaders({
+            Authorization: `Bearer ${this.token ?? ""}`,
+        });
+        return this.http.put<any>(`${this.baseUrl}User/update-profile`, data, { headers });
+    }
+
+    deleteProfile(): Observable<any> {
+        const headers = new HttpHeaders({
+            Authorization: `Bearer ${this.token ?? ""}`,
+        });
+        return this.http.delete<any>(`${this.baseUrl}User/delete-profile`, { headers });
+    }
+
+    getUserRecipes(userId: string): Observable<IRecipes[]> {
+        const headers = new HttpHeaders({
+            Authorization: `Bearer ${this.token ?? ""}`,
+        });
+        return this.http.get<IRecipes[]>(`${this.baseUrl}Recipes/user/${userId}`, { headers });
+    }
+
+    addRecipe(data: any): Observable<any> {
+        const headers = new HttpHeaders({
+            Authorization: `Bearer ${this.token ?? ""}`,
+        });
+        return this.http.post<any>(`${this.baseUrl}Recipes`, data, { headers });
+    }
+
+    updateUserRecipe(data: any): Observable<any> {
+        const headers = new HttpHeaders({
+            Authorization: `Bearer ${this.token ?? ""}`,
+        });
+        return this.http.put<any>(`${this.baseUrl}Recipes/${data.id}`, data, { headers });
+    }
+
+    deleteUserRecipe(recipeId: number): Observable<any> {
+        const headers = new HttpHeaders({
+            Authorization: `Bearer ${this.token ?? ""}`,
+        });
+        return this.http.delete<any>(`${this.baseUrl}Recipes/${recipeId}`, { headers });
     }
 }

@@ -9,17 +9,15 @@ import { IAuth, IAuthRegister, IAuthRegisterRes, IAuthRes } from "../../interfac
 export class AuthApiService {
     constructor(public http: HttpClient) {}
 
-    private baseUrl = "assets/jsons";
+    private baseUrl = "https://localhost:7165/api/";
 
     login(data: IAuth): Observable<IAuthRes> {
         console.log(data);
-        return this.http.get<IAuthRes>(`${this.baseUrl}/auth.json`);
-        // return this.http.post<IAuthRes>(`${this.baseUrl}/auth.json`, data);
+        return this.http.post<IAuthRes>(`${this.baseUrl}Login/login`, data);
     }
 
     register(data: IAuthRegister): Observable<IAuthRegisterRes> {
         console.log(data);
-        return this.http.get<IAuthRegisterRes>(`${this.baseUrl}/users.json`);
-        // return this.http.post<IAuthRegisterRes>(`${this.baseUrl}/users.json`, data);
+        return this.http.post<IAuthRegisterRes>(`${this.baseUrl}User/register`, data);
     }
 }

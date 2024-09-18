@@ -15,8 +15,14 @@ export class RecipeSingleComponent implements OnInit {
     recipe: IRecipes = {} as IRecipes;
 
     ngOnInit(): void {
-        this.recipesService.getRecipes().subscribe((data) => {
-            this.recipe = data.find((recipe) => recipe.id === this.recipeId) ?? ({} as IRecipes);
+        this.recipesService.getRecipeById(this.recipeId).subscribe({
+            next: (res) => {
+                this.recipe = res;
+                console.log(this.recipe);
+            },
+            error: (err) => {
+                console.log(err);
+            },
         });
     }
 }

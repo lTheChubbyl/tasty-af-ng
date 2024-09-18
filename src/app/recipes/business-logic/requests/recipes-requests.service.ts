@@ -12,4 +12,16 @@ export class RecipesRequestsService {
     getRecipes(): Observable<IRecipes[]> {
         return this.apiService.getRecipes();
     }
+
+    getRecipeById(id: number): Observable<IRecipes> {
+        return this.apiService.getRecipeById(id);
+    }
+
+    getRecipesByCategory(category: string): Observable<IRecipes[]> {
+        return this.apiService.getRecipesByCategory(category);
+    }
+
+    getRecipesBySearch(searchTerm: string): Observable<IRecipes[]> {
+        return this.apiService.getRecipesBySearch(searchTerm);
+    }
 }

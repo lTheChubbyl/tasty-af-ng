@@ -8,7 +8,10 @@
                     </div>
 
                     <ul class="blog__details-meta mb-15">
-                        <li><i class="fa-solid fa-circle-user"></i>by {{ recipe.author || "Foodista" }}</li>
+                        <li>
+                            <i class="fa-solid fa-circle-user"></i>by
+                            {{ recipe.authorName == " " ? "Foodista" : recipe.authorName }}
+                        </li>
                     </ul>
 
                     <div class="blog__details-content">
@@ -18,13 +21,13 @@
                         <h5>ingredients</h5>
                         <ul>
                             @for (ingredient of recipe.extendedIngredients; track ingredient) {
-                            <li>{{ ingredient.original }}</li>
+                            <li>{{ ingredient }}</li>
                             }
                         </ul>
 
                         <h5>Instructions</h5>
                         <ol>
-                            @for (step of recipe.analyzedInstructions.steps; track step) {
+                            @for (step of recipe.analyzedInstructions; track step) {
                             <li>{{ step }}</li>
                             }
                         </ol>

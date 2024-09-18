@@ -27,7 +27,7 @@ export class RegisterComponent {
     usernameFormControl = new FormControl("", [Validators.required, Validators.pattern(`^[a-zA-Z0-9_.]{3,20}$`)]);
     passwordFormControl = new FormControl("", [
         Validators.required,
-        Validators.pattern(`^(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{8,}`),
+        Validators.pattern(`^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{8,}$`),
     ]);
     matcher = new MyErrorStateMatcher();
 
@@ -46,7 +46,7 @@ export class RegisterComponent {
                 firstName: this.firstNameFormControl.value ?? "",
                 lastName: this.lastNameFormControl.value ?? "",
                 email: this.emailFormControl.value ?? "",
-                username: this.usernameFormControl.value ?? "",
+                userName: this.usernameFormControl.value ?? "",
                 password: this.passwordFormControl.value ?? "",
             };
 

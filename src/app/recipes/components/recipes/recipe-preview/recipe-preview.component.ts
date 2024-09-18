@@ -11,9 +11,5 @@ export class RecipePreviewComponent {
     @Input() isUserRecipe?: boolean;
 
     @Output() editRecipe = new EventEmitter<IRecipes>();
-
-    onEdit(): void {
-        this.editRecipe.emit(this.recipe);
-        console.log(this.recipe, "from recipe preview");
-    }
+    @Output() deleteRecipe = new EventEmitter<IRecipes>();
 }

@@ -12,7 +12,11 @@ export class AuthGuard {
         const isLoggedIn = this.authService.isLoggedIn();
 
         if (!isLoggedIn) {
-            this.router.navigateByUrl("/");
+            this.router.navigateByUrl("/auth");
+        }
+
+        if (isLoggedIn && this.router.url === "/auth") {
+            this.router.navigateByUrl("/profile");
         }
         return isLoggedIn;
     }

@@ -9,7 +9,7 @@ export class AuthService {
     constructor(private router: Router) {}
 
     getJwtToken(): string {
-        return localStorage.getItem("token") ?? "";
+        return (localStorage.getItem("token") ?? "").trim();
     }
 
     getJwtData(): any {

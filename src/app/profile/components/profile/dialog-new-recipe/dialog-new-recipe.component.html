@@ -1,0 +1,90 @@
+<div id="dialogNewRecipe" class="text-center p-5">
+    <h2 class="text-danger text-uppercase fs-1 fw-bold" mat-dialog-title>Add recipe</h2>
+    <mat-dialog-content>
+        <p>Add a new recipe to your profile</p>
+    </mat-dialog-content>
+    <mat-dialog-actions class="d-flex justify-content-center">
+        <form class="contact-us-message__form" (submit)="submitAddRecipe()">
+            <div class="row">
+                <mat-form-field>
+                    <mat-label>Title</mat-label>
+                    <input matInput [formControl]="title" [errorStateMatcher]="matcher" />
+                    @if (title.hasError('pattern')) {
+                    <mat-error>Please enter a valid title</mat-error>
+                    }
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Ready In Minutes</mat-label>
+                    <input matInput type="number" [formControl]="minutes" [errorStateMatcher]="matcher" />
+                    @if (minutes.hasError('pattern')) {
+                    <mat-error>Please enter a valid ready in minutes</mat-error>
+                    }
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Servings</mat-label>
+                    <input matInput type="number" [formControl]="servings" [errorStateMatcher]="matcher" />
+                    @if (servings.hasError('pattern')) {
+                    <mat-error>Please enter a valid servings</mat-error>
+                    }
+                </mat-form-field>
+                <div class="col-12 mb-5">
+                    <input
+                        type="file"
+                        name="fImage"
+                        id="fImage"
+                        class="form-control fs-3"
+                        (change)="onFileChange($event)"
+                    />
+                </div>
+                <mat-form-field>
+                    <mat-label>Summary</mat-label>
+                    <textarea
+                        matInput
+                        placeholder="Summary"
+                        [formControl]="summary"
+                        [errorStateMatcher]="matcher"
+                    ></textarea>
+                    @if (summary.hasError('pattern')) {
+                    <mat-error>Please enter a valid summary</mat-error>
+                    }
+                </mat-form-field>
+                <div>
+                    <div>
+                        @for (category of categoryArray; track category) {
+                        <mat-checkbox
+                            [value]="category.id"
+                            name="chbCategory"
+                            [id]="'chbCategory' + category.id"
+                            (change)="onChbChange($event)"
+                            >{{ category.name }}</mat-checkbox
+                        >
+                        }
+                    </div>
+                </div>
+                <mat-form-field>
+                    <mat-label>Ingredients (divided by "|")</mat-label>
+                    <input matInput [formControl]="ingredients" [errorStateMatcher]="matcher" />
+                    @if (ingredients.hasError('pattern')) {
+                    <mat-error>Please enter a valid ingredients</mat-error>
+                    }
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Instructions (divided by "|")</mat-label>
+                    <input matInput [formControl]="analyzedInstructions" [errorStateMatcher]="matcher" />
+                    @if (analyzedInstructions.hasError('pattern')) {
+                    <mat-error>Please enter a valid instructions</mat-error>
+                    }
+                </mat-form-field>
+                <div>
+                    @if (formIsValid == false) {
+                    <p class="text-danger">Please fill in all the required fields</p>
+                    }
+                </div>
+                <div class="col-12">
+                    <button class="px-5 py-4" mat-button (click)="onNoClick()">Cancel</button>
+                    <button type="submit" class="bg-danger text-white px-5 py-4" mat-button>Confirm</button>
+                </div>
+            </div>
+        </form>
+    </mat-dialog-actions>
+</div>

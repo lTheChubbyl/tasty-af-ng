@@ -1,17 +1,17 @@
 export interface IAuth {
-    username: string;
+    userName: string;
     password: string;
 }
 
 export interface IAuthRes {
-    jwtToken: string;
+    token: string;
 }
 
 export interface IAuthRegister {
     firstName: string;
     lastName: string;
     email: string;
-    username: string;
+    userName: string;
     password: string;
 }
 

@@ -1,191 +1,161 @@
 [
     {
         "extendedIngredients": [
-            { "original": "5 tablespoons Veg oil" },
-            { "original": "1/4 cup Cumin" },
-            { "original": "10 pounds Leg of lamb" },
-            { "original": "1/2 teaspoon Nutmeg" },
-            { "original": "2 tablespoons Paprika" },
-            { "original": "Plain yogurt 80g (I used my homemade yogurt)" },
-            { "original": "salt 1/4 tsp." },
-            { "original": "1 tablespoon Tumeric" }
+            "5 tablespoons Veg oil",
+            "1/4 cup Cumin",
+            "10 pounds Leg of lamb",
+            "1/2 teaspoon Nutmeg",
+            "2 tablespoons Paprika",
+            "Plain yogurt 80g (I used my homemade yogurt)",
+            "salt 1/4 tsp.",
+            "1 tablespoon Tumeric"
         ],
-        "id": 665550,
         "title": "Yogurt Marinated Lamb Skewers",
         "readyInMinutes": 45,
         "servings": 12,
         "image": "https://img.spoonacular.com/recipes/665550-556x370.jpg",
-        "summary": "Yogurt Marinated Lamb Skewers could be just the <b>gluten free</b> recipe you\\'ve been looking for. One portion of this dish contains approximately <b>50g of protein</b>, <b>18g of fat</b>, and a total of <b>385 calories</b>. For <b>$4.43 per serving</b>, this recipe <b>covers 30%</b> of your daily requirements of vitamins and minerals. This recipe serves 12. This recipe is liked by 10 foodies and cooks. A mixture of veg oil, cumin, yogurt, and a handful of other ingredients are all it takes to make this recipe so scrumptious. It works well as a main course. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. It is brought to you by Foodista. All things considered, we decided this recipe <b>deserves a spoonacular score of 84%</b>. This score is excellent. Users who liked this recipe also liked <a href=\"https://spoonacular.com/recipes/yogurt-and-mint-marinated-lamb-skewers-1189831\">Yogurt- and Mint-Marinated Lamb Skewers</a>, <a href=\"https://spoonacular.com/recipes/yogurt-and-mint-marinated-lamb-skewers-606500\">Yogurt- and Mint-Marinated Lamb Skewers</a>, and <a href=\"https://spoonacular.com/recipes/yogurt-marinated-chicken-skewers-with-toum-garlic-sauce-1302303\">Yogurt Marinated Chicken Skewers With Toum Garlic Sauce</a>.",
-        "dishTypes": ["lunch", "main course", "main dish", "dinner"],
-        "analyzedInstructions": {
-            "steps": [
-                "Bone the lamb and cut into 1\" cubes.",
-                "Combine all ingredients in a large bowl, mix, cover and refrigerate overnight. Skewer cubes and grill over charcoal about 7 min. per side."
-            ]
-        }
+        "summary": "Yogurt Marinated Lamb Skewers could be just the gluten-free recipe you've been searching for. Each serving delivers approximately 50 grams of protein, 18 grams of fat, and 385 calories. Priced at $4.43 per serving, this dish covers 30% of your daily vitamin and mineral requirements. Ideal as a main course, it serves 12 and takes about 45 minutes from preparation to serving. With a delicious blend of vegetable oil, cumin, yogurt, and other flavorful ingredients, this recipe is a hit among 10 food enthusiasts and cooks. Brought to you by Foodista, it boasts an excellent Spoonacular score of 84%. If you enjoy this recipe, you might also like yogurt-marinated lamb skewers with mint or yogurt-marinated chicken skewers with toum garlic sauce.",
+        "dishTypes": ["lunch", "main course", "dinner"],
+        "analyzedInstructions": [
+            "Bone the lamb and cut into 1\" cubes.",
+            "Combine all ingredients in a large bowl, mix, cover and refrigerate overnight. Skewer cubes and grill over charcoal about 7 min. per side."
+        ]
     },
     {
         "extendedIngredients": [
-            { "original": "1/4 cup frozen peaches" },
-            { "original": "cup quick cooking oats" },
-            { "original": "1/2 cup non-fat milk" },
-            { "original": "2 teaspoons low fat cream cheese" },
-            { "original": "1 teaspoon agave" },
-            { "original": "1/2 teaspoon cinnamon" }
+            "1/4 cup frozen peaches",
+            "cup quick cooking oats",
+            "1/2 cup non-fat milk",
+            "2 teaspoons low fat cream cheese",
+            "1 teaspoon agave",
+            "1/2 teaspoon cinnamon"
         ],
-        "id": 655186,
         "title": "Peaches And Cream Oatmeal",
-        "readyInMinutes": 45,
+        "readyInMinutes": 5,
         "servings": 1,
         "image": "https://img.spoonacular.com/recipes/655186-556x370.jpg",
         "summary": "If you have roughly <b>45 minutes</b> to spend in the kitchen, Peaches And Cream Oatmeal might be a great <b>gluten free and lacto ovo vegetarian</b> recipe to try. This recipe serves 1 and costs 92 cents per serving. One serving contains <b>408 calories</b>, <b>16g of protein</b>, and <b>7g of fat</b>. 2 people have made this recipe and would make it again. It works well as a breakfast. Head to the store and pick up cream cheese, cinnamon, non-fat milk, and a few other things to make it today. It is brought to you by Foodista. With a spoonacular <b>score of 87%</b>, this dish is super. Similar recipes include <a href=\"https://spoonacular.com/recipes/peaches-and-cream-oatmeal-543888\">Peaches and Cream Oatmeal</a>, <a href=\"https://spoonacular.com/recipes/peaches-and-cream-oatmeal-1374267\">Peaches And Cream Oatmeal</a>, and <a href=\"https://spoonacular.com/recipes/peaches-coconut-cream-oatmeal-1615501\">Peaches & Coconut Cream Oatmeal</a>.",
-        "dishTypes": ["morning meal", "brunch", "breakfast"],
-        "analyzedInstructions": {
-            "steps": [
-                "Microwave the peaches for 30 seconds.",
-                "Add oats, milk, cream cheese, agave and cinnamon.  Microwave for 1 minute, stir, and enjoy!"
-            ]
-        }
+        "dishTypes": ["breakfast", "snack"],
+        "analyzedInstructions": [
+            "Microwave the peaches for 30 seconds.",
+            "Add oats, milk, cream cheese, agave and cinnamon.  Microwave for 1 minute, stir, and enjoy!"
+        ]
     },
     {
         "extendedIngredients": [
-            { "original": "2 large ripe Haas avocados" },
-            { "original": "2 tablespoons finely chopped onion" },
-            { "original": "1 tablespoon finely chopped jalapeno pepper (seeds removed)" },
-            { "original": "1/4 cup chopped fresh cilantro" },
-            { "original": "1/2 teaspoon salt" },
-            { "original": "1/8 teaspoon freshly ground black pepper" },
-            { "original": "tablespoon fresh lime juice" },
-            { "original": "1 teaspoon chopped fresh basil" },
-            { "original": "1 teaspoon chopped fresh oregano" }
+            "2 large ripe Haas avocados",
+            "2 tablespoons finely chopped onion",
+            "1 tablespoon finely chopped jalapeno pepper (seeds removed)",
+            "1/4 cup chopped fresh cilantro",
+            "1/2 teaspoon salt",
+            "1/8 teaspoon freshly ground black pepper",
+            "tablespoon fresh lime juice",
+            "1 teaspoon chopped fresh basil",
+            "1 teaspoon chopped fresh oregano"
         ],
-        "id": 645988,
         "title": "Guacamole",
-        "readyInMinutes": 45,
+        "readyInMinutes": 15,
         "servings": 4,
         "image": "https://img.spoonacular.com/recipes/645988-556x370.jpg",
         "summary": "Guacamole takes roughly <b>45 minutes</b> from beginning to end. Watching your figure? This gluten free, dairy free, paleolithic, and lacto ovo vegetarian recipe has <b>167 calories</b>, <b>2g of protein</b>, and <b>15g of fat</b> per serving. This recipe serves 4. For <b>87 cents per serving</b>, this recipe <b>covers 9%</b> of your daily requirements of vitamins and minerals. 20 people found this recipe to be flavorful and satisfying. A mixture of haas avocados, salt, cilantro, and a handful of other ingredients are all it takes to make this recipe so tasty. It works well as a very affordable hor d\\'oeuvre. A couple people really liked this Mexican dish. It is brought to you by Foodista. With a spoonacular <b>score of 81%</b>, this dish is amazing. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/guacamole-how-to-make-guacamole-mexican-guacamole-486710\">guacamole , how to make guacamole | mexican guacamole</a>, <a href=\"https://spoonacular.com/recipes/fried-green-plantain-with-guacamole-and-shrimp-tostada-de-pltano-con-camarones-y-guacamole-1213029\">Fried Green Plantain with Guacamole and Shrimp (Tostada de Plátano con Camarones y Guacamole)</a>, and <a href=\"https://spoonacular.com/recipes/fried-green-plantain-with-guacamole-and-shrimp-tostada-de-pltano-con-camarones-y-guacamole-226105\">Fried Green Plantain with Guacamole and Shrimp (Tostada de Plátano con Camarones y Guacamole)</a>.",
-        "dishTypes": [
-            "antipasti",
-            "condiment",
-            "starter",
-            "snack",
-            "appetizer",
-            "dip",
-            "antipasto",
-            "hor d'oeuvre",
-            "spread"
-        ],
-        "analyzedInstructions": {
-            "steps": [
-                "Cut the avocados in half lengthwise. Drive chef's knife into large pit and twist to remove.  Scoop the avocado out from the skin into a bowl.",
-                "Mash the avocado with a fork, add in onion and cilantro, oregano and basil..",
-                "Mix to incorporate.",
-                "Season to taste with salt, pepper and lime juice.",
-                "Serve immediately or chill.  If you are not going to eat the guacamole immediately, store in refrigerator with plastic film wrap pressed onto the guacamole."
-            ]
-        }
+        "dishTypes": ["snack"],
+        "analyzedInstructions": [
+            "Cut the avocados in half lengthwise. Drive chef's knife into large pit and twist to remove.  Scoop the avocado out from the skin into a bowl.",
+            "Mash the avocado with a fork, add in onion and cilantro, oregano and basil..",
+            "Mix to incorporate.",
+            "Season to taste with salt, pepper and lime juice.",
+            "Serve immediately or chill.  If you are not going to eat the guacamole immediately, store in refrigerator with plastic film wrap pressed onto the guacamole."
+        ]
     },
     {
         "extendedIngredients": [
-            { "original": "2 cups all purpose flour" },
-            { "original": "2 tablespoons cocoa powder" },
-            { "original": "1 package (8- ounce) cream cheese, softened" },
-            { "original": "1/3 cup dried cranberries" },
-            { "original": "1/3 cup dried raisins" },
-            { "original": "1 teaspoon ground cinnamon" },
-            { "original": "1 teaspoon nutmeg" },
-            { "original": "3/4 cup sugar" },
-            { "original": "1/2 cup unsalted butter, melted" },
-            { "original": "2/3 cup chopped toasted walnuts or almonds" }
+            "2 cups all purpose flour",
+            "2 tablespoons cocoa powder",
+            "1 package (8- ounce) cream cheese, softened",
+            "1/3 cup dried cranberries",
+            "1/3 cup dried raisins",
+            "1 teaspoon ground cinnamon",
+            "1 teaspoon nutmeg",
+            "3/4 cup sugar",
+            "1/2 cup unsalted butter, melted",
+            "2/3 cup chopped toasted walnuts or almonds"
         ],
-        "id": 656569,
         "title": "Polish Rugelach",
-        "readyInMinutes": 45,
+        "readyInMinutes": 25,
         "servings": 18,
         "image": "https://img.spoonacular.com/recipes/656569-556x370.jpg",
         "summary": "Polish Rugelach could be just the <b>lacto ovo vegetarian</b> recipe you\\'ve been looking for. One serving contains <b>217 calories</b>, <b>3g of protein</b>, and <b>13g of fat</b>. For <b>39 cents per serving</b>, you get a dessert that serves 18. This recipe from Foodista requires ground cinnamon, butter, cream cheese, and walnuts. 2 people were glad they tried this recipe. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 16%</b>, which is not so tremendous. Similar recipes are <a href=\"https://spoonacular.com/recipes/rugelach-672205\">Rugelach</a>, <a href=\"https://spoonacular.com/recipes/rugelach-658855\">Rugelach</a>, and <a href=\"https://spoonacular.com/recipes/for-rugelach-618734\">for Rugelach</a>.",
         "dishTypes": ["dessert"],
-        "analyzedInstructions": {
-            "steps": [
-                "For dough: Beat butter and cream cheese in large bowl until light.",
-                "Add sugar; beat until fluffy.",
-                "Mix in flour. Gather dough into ball and gently knead until smooth. Gather into ball and flatten wrap in plastic wrap and chill 1 hour. When ready, divide dough into four pieces.For filling",
-                "Combine  cup sugar, cranberries walnuts, butter, cinnamon, nutmeg and cocoa powder in food processor and give it a few good chops. Set aside.Preheat oven to 350 degrees.",
-                "Place 1 dough piece on floured work surface.",
-                "Roll out dough to about 1/8 inch thickness.",
-                "Spread 3 tablespoons filling over round, leaving  - inch border.",
-                "Cut round into 1/8 in. wedges. Starting at wide end"
-            ]
-        }
+        "analyzedInstructions": [
+            "For dough: Beat butter and cream cheese in large bowl until light.",
+            "Add sugar; beat until fluffy.",
+            "Mix in flour. Gather dough into ball and gently knead until smooth. Gather into ball and flatten wrap in plastic wrap and chill 1 hour. When ready, divide dough into four pieces.For filling",
+            "Combine  cup sugar, cranberries walnuts, butter, cinnamon, nutmeg and cocoa powder in food processor and give it a few good chops. Set aside.Preheat oven to 350 degrees.",
+            "Place 1 dough piece on floured work surface.",
+            "Roll out dough to about 1/8 inch thickness.",
+            "Spread 3 tablespoons filling over round, leaving  - inch border.",
+            "Cut round into 1/8 in. wedges. Starting at wide end"
+        ]
     },
     {
         "extendedIngredients": [
-            { "original": "1 can fat free condensed milk" },
-            { "original": "1/4 cup lemon juice" },
-            { "original": "lemon rind finely grated (1 whole lemon)" },
-            { "original": "450 grams low fat cream cheese" },
-            { "original": "500 grams gm mango (fresh, canned or frozen)" },
-            { "original": "1 cup milk" },
-            { "original": "½ cup sugar" },
-            { "original": "1 teaspoon vanilla bean paste" },
-            { "original": "3 tablespoons water" }
+            "1 can fat free condensed milk",
+            "1/4 cup lemon juice",
+            "lemon rind finely grated (1 whole lemon)",
+            "450 grams low fat cream cheese",
+            "500 grams gm mango (fresh, canned or frozen)",
+            "1 cup milk",
+            "½ cup sugar",
+            "1 teaspoon vanilla bean paste",
+            "3 tablespoons water"
         ],
-        "id": 637624,
         "title": "Cheesecake Ice-Cream With Mango Syrup",
-        "readyInMinutes": 45,
+        "readyInMinutes": 30,
         "servings": 10,
         "image": "https://img.spoonacular.com/recipes/637624-556x370.jpg",
         "summary": "If you have about <b>45 minutes</b> to spend in the kitchen, Cheesecake Ice-Cream With Mango Syrup might be a spectacular <b>gluten free and lacto ovo vegetarian</b> recipe to try. For <b>$1.27 per serving</b>, you get a dessert that serves 10. One serving contains <b>304 calories</b>, <b>8g of protein</b>, and <b>11g of fat</b>. 18 people were impressed by this recipe. Head to the store and pick up condensed milk, milk, water, and a few other things to make it today. It is brought to you by Foodista. Taking all factors into account, this recipe <b>earns a spoonacular score of 42%</b>, which is good. Try <a href=\"https://spoonacular.com/recipes/mango-chili-ice-cream-best-lick-2008-ice-cream-contest-entr-58729\">Mango Chili Ice Cream Best Lick! 2008 Ice Cream Contest Entr</a>, <a href=\"https://spoonacular.com/recipes/patriotic-ice-cream-sandwiches-with-red-velvet-shortbread-stars-cheesecake-ice-cream-497575\">Patriotic Ice Cream Sandwiches, with Red Velvet Shortbread Stars & Cheesecake Ice Cream</a>, and <a href=\"https://spoonacular.com/recipes/cherry-cheesecake-ice-cream-best-lick-2008-ice-cream-contes-70731\">Cherry Cheesecake Ice Cream Best Lick! 2008 Ice Cream Contes</a> for similar recipes.",
         "dishTypes": ["dessert"],
-        "analyzedInstructions": {
-            "steps": [
-                "Add the first 6 ingredients to a two litre plastic jug.  Use a stick blender to thoroughly mix the ingredients and fluff the mixture up.",
-                "Place the jug in the freezer and freeze until the mixture starts to set.Use the stick blender to mix the ice-cream again for about 30 seconds. Return the mix to the freezer.Repeat this step again as the ice-cream is setting.",
-                "Once the mixture has been re-mixed twice, transfer the ice-cream to a deep metal dish and return to the freezer.  Choose a dish which is large enough and has enough space to use the stick blender.",
-                "Blend in the metal container twice before allowing to completely freeze.",
-                "Place all the mango syrup ingredients in a saucepan and using a stick blender puree the mix.",
-                "Heat the syrup and let it boil for 5 minutes stirring regularly.",
-                "Reduce the heat slightly and stir for a further two minutes or until the mixture is at a desirable syrup consistently.  It will thicken slightly on cooling.",
-                "Pour the cooled syrup over the ice-cream for a delicious Mango Cheesecake Ice-Cream."
-            ]
-        }
+        "analyzedInstructions": [
+            "Add the first 6 ingredients to a two litre plastic jug.  Use a stick blender to thoroughly mix the ingredients and fluff the mixture up.",
+            "Place the jug in the freezer and freeze until the mixture starts to set.Use the stick blender to mix the ice-cream again for about 30 seconds. Return the mix to the freezer.Repeat this step again as the ice-cream is setting.",
+            "Once the mixture has been re-mixed twice, transfer the ice-cream to a deep metal dish and return to the freezer.  Choose a dish which is large enough and has enough space to use the stick blender.",
+            "Blend in the metal container twice before allowing to completely freeze.",
+            "Place all the mango syrup ingredients in a saucepan and using a stick blender puree the mix.",
+            "Heat the syrup and let it boil for 5 minutes stirring regularly.",
+            "Reduce the heat slightly and stir for a further two minutes or until the mixture is at a desirable syrup consistently.  It will thicken slightly on cooling.",
+            "Pour the cooled syrup over the ice-cream for a delicious Mango Cheesecake Ice-Cream."
+        ]
     },
     {
         "extendedIngredients": [
-            { "original": "2 tablespoons extra virgin olive oil" },
-            { "original": "1 medium yellow onion, diced (about 1½ cups)" },
-            { "original": "1 medium celery root (also called celeriac), trimmed and diced (1½ to 2 cups)" },
-            { "original": "3 large garlic cloves, minced" },
-            { "original": "½ cup chopped scallions, green tops only" },
-            { "original": "¼ cup Leek Confit" },
-            { "original": "½ Fuji apple, peeled and diced" },
-            { "original": "1 tablespoon country-style Dijon mustard" },
-            { "original": "1 teaspoon minced fresh rosemary" },
-            { "original": "5 cups vegetable broth" },
-            { "original": "⅔ cup quartered baby potatoes" },
-            { "original": "½ small savoy cabbage, thinly sliced (about 3 cups)" },
-            { "original": "1 teaspoon kosher salt (or more, to taste)" },
-            { "original": "½ teaspoon black pepper" },
-            { "original": "½ cup brown basmati rice" },
-            { "original": "½ cup grated Parmesan cheese, optional garnish" }
+            "2 tablespoons extra virgin olive oil",
+            "1 medium yellow onion, diced (about 1½ cups)",
+            "1 medium celery root (also called celeriac), trimmed and diced (1½ to 2 cups)",
+            "3 large garlic cloves, minced",
+            "½ cup chopped scallions, green tops only",
+            "¼ cup Leek Confit",
+            "½ Fuji apple, peeled and diced",
+            "1 tablespoon country-style Dijon mustard",
+            "1 teaspoon minced fresh rosemary",
+            "5 cups vegetable broth",
+            "⅔ cup quartered baby potatoes",
+            "½ small savoy cabbage, thinly sliced (about 3 cups)",
+            "1 teaspoon kosher salt (or more, to taste)",
+            "½ teaspoon black pepper",
+            "½ cup brown basmati rice",
+            "½ cup grated Parmesan cheese, optional garnish"
         ],
-        "id": 659513,
         "title": "Savoy Cabbage and Celery Root Soup with Leek Confit",
-        "readyInMinutes": 45,
+        "readyInMinutes": 60,
         "servings": 7,
-
         "image": "https://img.spoonacular.com/recipes/659513-556x370.jpg",
         "summary": "Savoy Cabbage and Celery Root Soup with Leek Confit might be just the hor d\\'oeuvre you are searching for. This recipe serves 7. Watching your figure? This gluten free recipe has <b>183 calories</b>, <b>5g of protein</b>, and <b>6g of fat</b> per serving. For <b>$1.51 per serving</b>, this recipe <b>covers 10%</b> of your daily requirements of vitamins and minerals. A mixture of vegetable broth, garlic cloves, celery root, and a handful of other ingredients are all it takes to make this recipe so flavorful. It will be a hit at your <b>Autumn</b> event. 2 people found this recipe to be scrumptious and satisfying. It is brought to you by Foodista. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. With a spoonacular <b>score of 50%</b>, this dish is good. Similar recipes include <a href=\"https://spoonacular.com/recipes/savoy-cabbage-and-celery-root-soup-with-leek-confit-1404279\">Savoy Cabbage and Celery Root Soup with Leek Confit</a>, <a href=\"https://spoonacular.com/recipes/leek-and-celery-root-soup-619045\">Leek and Celery Root Soup</a>, and <a href=\"https://spoonacular.com/recipes/silky-leek-celery-root-soup-38324\">Silky Leek & Celery Root Soup</a>.",
-        "dishTypes": ["antipasti", "soup", "starter", "snack", "appetizer", "antipasto", "hor d'oeuvre"],
-        "diets": ["gluten free"],
-        "analyzedInstructions": {
-            "steps": [
-                "Heat the olive oil in a heavy pot, such as a Le Creuset, over medium-high heat.",
-                "Add the onion, celery root, garlic, scallion tops, and leek confit. Saut until the onion softens, about 15 minutes.",
-                "Add the apple, mustard, and rosemary, and cook for another couple of minutes. The mixture will be very aromatic.",
-                "Add the remaining ingredients and bring to a low simmer. Cover and simmer for 40 minutes. Adjust seasoning if needed."
-            ]
-        }
+        "dishTypes": ["starter"],
+        "analyzedInstructions": [
+            "Heat the olive oil in a heavy pot, such as a Le Creuset, over medium-high heat.",
+            "Add the onion, celery root, garlic, scallion tops, and leek confit. Saut until the onion softens, about 15 minutes.",
+            "Add the apple, mustard, and rosemary, and cook for another couple of minutes. The mixture will be very aromatic.",
+            "Add the remaining ingredients and bring to a low simmer. Cover and simmer for 40 minutes. Adjust seasoning if needed."
+        ]
     }
 ]

@@ -1,5 +1,7 @@
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
+import { AuthGuard } from "./shared/guards/auth.guard";
+import { NotFoundComponent } from "./not-found/not-found.component";
 
 const routes: Routes = [
     {
@@ -33,8 +35,13 @@ const routes: Routes = [
             {
                 path: "profile",
                 loadChildren: () => import("./profile/profile.module").then((m) => m.ProfileModule),
+                canActivateChild: [AuthGuard],
             },
         ],
+    },
+    {
+        path: "**",
+        component: NotFoundComponent,
     },
 ];
 
