@@ -17,7 +17,10 @@
 
     <div class="blog-4__item-content">
         <ul class="blog-4__item-meta mb-15">
-            <li><i class="fa-solid fa-circle-user"></i>by {{ recipe.authorName || "Foodista" }}</li>
+            <li>
+                <i class="fa-solid fa-circle-user"></i>by
+                {{ recipe.authorName === " " ? "Foodista" : recipe.authorName }}
+            </li>
         </ul>
 
         <h4 class="blog-4__item-content-title text-uppercase fw-bold mb-15">

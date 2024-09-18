@@ -10,6 +10,8 @@ import { IRecipes } from "../../interfaces/i-recipes";
 })
 export class RecipesComponent implements OnInit {
     recipes: IRecipes[] = [];
+    searchActive: boolean = false;
+    searchText: string = "";
 
     constructor(private recipesService: RecipesRequestsService, private route: ActivatedRoute) {}
 
@@ -17,11 +19,14 @@ export class RecipesComponent implements OnInit {
         this.route.queryParamMap.subscribe((params) => {
             const categoryId = params.get("category");
             const searchTerm = params.get("search") || "";
+            this.searchActive = false;
 
             if (searchTerm.trim()) {
                 this.recipesService.getRecipesBySearch(searchTerm).subscribe({
                     next: (res) => {
                         this.recipes = res;
+                        this.searchActive = true;
+                        this.searchText = searchTerm;
                     },
                     error: (err) => {
                         console.log("Error fetching recipes by search:", err);

@@ -1,5 +1,6 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, Input, OnInit } from "@angular/core";
 import { DishTypesService } from "../../../../shared/business-logic/dish-types-api.service";
+import { ActivatedRoute, Router } from "@angular/router";
 
 @Component({
     selector: "app-sidebar-section",
@@ -7,7 +8,7 @@ import { DishTypesService } from "../../../../shared/business-logic/dish-types-a
     styleUrl: "./sidebar-section.component.css",
 })
 export class SidebarSectionComponent implements OnInit {
-    constructor(private dishTypesService: DishTypesService) {}
+    constructor(private dishTypesService: DishTypesService, private router: Router, private route: ActivatedRoute) {}
 
     categoryArray: any;
 
@@ -20,10 +21,25 @@ export class SidebarSectionComponent implements OnInit {
                 console.log(err);
             },
         });
+        this.route.queryParamMap.subscribe((params) => {
+            this.sidebarSearchInput = params.get("search") || "";
+            this.searchActive = !!this.sidebarSearchInput;
+        });
     }
 
     sidebarSearchInput: string = "";
+    searchActive: boolean = false;
 
-    searchRecipes(): void {}
-    resetSearch(): void {}
+    searchOnChange(): void {
+        this.searchActive = false;
+    }
+
+    searchRecipes(): void {
+        this.router.navigate(["/recipes"], { queryParams: { search: this.sidebarSearchInput } });
+    }
+
+    resetSearch(): void {
+        this.sidebarSearchInput = "";
+        this.router.navigate(["/recipes"]);
+    }
 }

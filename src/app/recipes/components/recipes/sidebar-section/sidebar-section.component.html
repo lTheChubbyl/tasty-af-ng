@@ -3,8 +3,14 @@
         <div app-base-sidebar-card class="sidebar__widget section-bg-2" title="Search">
             <div class="sidebar__widget-search">
                 <div class="search__bar">
-                    <input type="text" id="search" placeholder="Enter Keyword" [(ngModel)]="sidebarSearchInput" />
-                    @if (!sidebarSearchInput) {
+                    <input
+                        type="text"
+                        id="search"
+                        placeholder="Enter Keyword"
+                        [(ngModel)]="sidebarSearchInput"
+                        (keyup)="searchOnChange()"
+                    />
+                    @if (!searchActive) {
                     <button class="search-btn" (click)="searchRecipes()">
                         <i class="fa-regular fa-magnifying-glass fs-2"></i>
                     </button>

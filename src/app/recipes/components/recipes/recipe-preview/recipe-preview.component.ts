@@ -12,4 +12,8 @@ export class RecipePreviewComponent {
 
     @Output() editRecipe = new EventEmitter<IRecipes>();
     @Output() deleteRecipe = new EventEmitter<IRecipes>();
+
+    ngOnInit(): void {
+        console.log(this.recipe);
+    }
 }

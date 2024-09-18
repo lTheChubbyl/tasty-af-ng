@@ -1,6 +1,9 @@
 <ul class="blog-2__item-author mb-20">
     <li>
-        <span><span class="text-lowercase">by</span> {{ highlighted.authorName || "Foodista" }}</span>
+        <span
+            ><span class="text-lowercase">by</span>
+            {{ highlighted.authorName === " " ? "Foodista" : highlighted.authorName }}</span
+        >
     </li>
     <li>
         <a [routerLink]="'/recipes/' + highlighted.id">

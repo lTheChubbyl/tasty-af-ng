@@ -5,13 +5,12 @@
         <div class="row">
             <div class="col-xl-8">
                 <div class="blog-4__left">
-                    <!-- @if (searchActive) {
-                        <p class="fs-2">
-                            Showing ({{ recipesStore.recipesArray.length }}) results for search term -
-                            <span class="fw-bold">"{{ recipesStore.searchTerm }}"</span>
-                        </p>
-                    } -->
-                    @for (recipe of recipes; track recipe.id) {
+                    @if (searchActive) {
+                    <p class="fs-2">
+                        Showing ({{ recipes.length }}) results for search term -
+                        <span class="fw-bold">"{{ searchText }}"</span>
+                    </p>
+                    } @for (recipe of recipes; track recipe.id) {
                     <app-recipe-preview [recipe]="recipe"></app-recipe-preview>
                     } @empty {
                     <div class="text-center py-5">
