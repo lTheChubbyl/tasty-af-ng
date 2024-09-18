@@ -18,7 +18,6 @@ export class RecipeSingleComponent implements OnInit {
         this.recipesService.getRecipeById(this.recipeId).subscribe({
             next: (res) => {
                 this.recipe = res;
-                console.log(this.recipe);
             },
             error: (err) => {
                 console.log(err);

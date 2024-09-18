@@ -29,7 +29,15 @@ export class RecipesApiService {
         return this.http.get<IRecipes[]>(`${this.baseUrl}/search`, { params });
     }
 
-    // addRecipeComment(id: number, comment: string): Observable<IRecipes> {
-    //     return this.http.post<IRecipes>(`${this.baseUrl}/${id}/comments`, comment);
-    // }
+    getRecipeComments(id: number): Observable<any[]> {
+        return this.http.get<any[]>(`https://localhost:7165/api/Comments/${id}`);
+    }
+
+    addRecipeComment(comment: any): Observable<any> {
+        return this.http.post<any>(`https://localhost:7165/api/Comments`, comment);
+    }
+
+    deleteRecipeComment(id: number): Observable<any> {
+        return this.http.delete<any>(`https://localhost:7165/api/Comments/${id}`);
+    }
 }

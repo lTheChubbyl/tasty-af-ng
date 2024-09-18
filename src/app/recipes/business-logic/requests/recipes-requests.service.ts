@@ -24,4 +24,16 @@ export class RecipesRequestsService {
     getRecipesBySearch(searchTerm: string): Observable<IRecipes[]> {
         return this.apiService.getRecipesBySearch(searchTerm);
     }
+
+    getRecipeComments(id: number): Observable<any[]> {
+        return this.apiService.getRecipeComments(id);
+    }
+
+    addComment(comment: any): Observable<any> {
+        return this.apiService.addRecipeComment(comment);
+    }
+
+    deleteComment(id: number): Observable<any> {
+        return this.apiService.deleteRecipeComment(id);
+    }
 }

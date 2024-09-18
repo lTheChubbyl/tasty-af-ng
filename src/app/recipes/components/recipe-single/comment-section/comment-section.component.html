@@ -2,25 +2,25 @@
     <h4 class="mb-30 mb-xs-25">{{ commentsArray.length }} Comments</h4>
     @for (comment of commentsArray; track comment.id) {
     <div class="comment-item d-flex">
-        <div class="comment-item__media">
-            <img src="assets/imgs/blog-details/author-1.png" class="img-fluid" alt="image not found" />
-        </div>
-
         <div class="comment-item__content">
             <div class="comment-item__header d-flex align-items-center justify-content-between">
                 <div class="comment-item__header-left">
-                    <span class="date">{{ comment.date }}</span>
-                    <h5 class="name">{{ comment.author }}</h5>
+                    <span class="date">{{ comment.createdAtFormatted }}</span>
+                    <h5 class="name">{{ comment.authorName }}</h5>
                 </div>
             </div>
-            <p class="mb-0">{{ comment.text }}</p>
+            <p class="mb-0">{{ comment.content }}</p>
         </div>
+        @if (comment.authorId == authorId) {
         <div class="ms-auto d-flex align-items-center">
-            <button (click)="deleteComment()">
+            <button (click)="deleteComment(comment.id)">
                 <i class="fa-solid fa-trash-can text-danger cursor-pointer"></i>
             </button>
         </div>
+        }
     </div>
+    } @empty {
+    <div class="text-center">No comments yet</div>
     }
 
     <div class="live-comment-widget mt-60 mt-xs-40 section-bg-2">
